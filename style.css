@@ -1,0 +1,57 @@
+html{
+    font-size: 14pt;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    background: #1E6E93;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li a{
+    font-size: 1.25rem;
+}
+
+h1, h2{
+    color: white;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#overOns{
+    background-color: #1E6E93;
+    color: white;
+    clip-path: polygon(0 0, 100% 5%, 100% 95%, 0% 100%);
+}
+
+#overOns a{
+    font-size: 1.25rem;
+}
+
+.link{
+    color: #DE8A68;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 5px;
+}
+
+.link:hover{
+    background-color: #DE8A68;
+    color: white;
+}
+
+.accent{
+    color: #A3C6A5;
+    font-weight: bold;
+}

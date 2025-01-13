@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredoka:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>WNKL - Home</title>
+</head>
+<body>
+    
+    <nav class="py-3">
+        <div class="container">
+            <div class="row">
+                <img class="col-md-4" src="images/LOGOWNKLPNG_Tekengebied_1.png" alt="WNKL logo">
+
+                <ul class="col-md-8 d-flex align-items-center    m-0">
+                    <li class="col-2 offset-2"><a class="p-2 link" href="#overOns">Over ons</a></li>
+                    <li class="col-2"><a class="p-2 link" href="">Contact</a></li>
+                    <li class="col-2"><a class="p-2 link" href="">Spotlight</a></li>
+                    <li class="col-2 "><a class="p-2 link" href="">Alle producten</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="home" class="container py-5">
+        <p class="col-12">
+            Welkom bij <span class="accent">WNKL</span>, onze leeronderneming! Wij zijn drie studenten Retail van het <span class="accent">Campus Sint-Jan Berchmanscollege in Mol</span>. 
+            Met WNKL willen we niet alleen wat we op school leren in de praktijk brengen, maar ook nieuwe uitdagingen aangaan. We richten ons op <span class="accent">innovatie en duurzaamheid</span> in de retailsector, 
+            en willen met onze projecten een positieve impact maken. Voor ons is dit de perfecte kans om ondernemerschap te ontdekken, van fouten te leren en te groeien. Samen zetten we de volgende 
+            stap richting een creatieve en duurzame toekomst.
+        </p>
+    </div>
+
+    <div id="overOns" class="py-5">
+        <div class="container">
+            <div class="row"> 
+                <h2 class="col-12">Over ons</h2>
+
+                <p class="col-12">
+                    Welkom bij WNKL, onze leeronderneming! Wij zijn <span class="accent">Thijs Meynen, Lieze Stynen en Kaat Vandepaer</span>, drie gemotiveerde studenten Retail aan het Campus Sint-Jan Berchmanscollege in Mol. 
+                    Met WNKL willen we de kennis die we op school opdoen in de praktijk brengen en nieuwe uitdagingen aangaan. Onze focus ligt op <span>innovatie en duurzaamheid</span> in de retailsector, 
+                    met als doel een positieve impact op onze omgeving.
+                </p>
+                <p class="col-12 d-none d-md-block">
+                    WNKL is voor ons meer dan een schoolproject; het is een waardevolle kans om het <span>ondernemerschap te ervaren</span> en creatief te denken. We zijn ervan overtuigd dat fouten maken een essentieel 
+                    onderdeel is van leren en zijn vastberaden om van elke stap te groeien. Samen streven we naar een <span>duurzame en verantwoorde toekomst</span> en hopen anderen te inspireren met onze passie en 
+                    inzet voor innovatieve oplossingen in de retail.
+                </p>
+                <p class="col-12">
+                    Neem gerust een kijkje op onze website voor meer informatie over onze producten. Als je nog vragen hebt, staan we altijd klaar om je te helpen, dus aarzel niet om <a href="#contact" class="link p-1">contact</a> met ons op te nemen!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="container py-5">
+        <div class="row">
+            <h2 class="col-12">Contact</h2>
+
+            <form class="col-md-6 d-flex flex-wrap p-3" action="https://formspree.io/f/manyyppo" method="post">
+                <label class="col-12" for="name">Name</label>
+                <input class="col-12" name="naam" type="text" placeholder="Name" required>
+
+                <label class="col-12" for="email">Email</label>
+                <input name="email" type="email" placeholder="Email" required>
+
+                <label class="col-12" for="message">Message</label>
+                <textarea class="col-12" name="message" id="message" placeholder="Message"></textarea>
+
+                <button class="primary_button" type="submit">SUBMIT</button>
+            </form>
+
+            <iframe class="col-md-6 d-none d-md-block" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5001.565467760768!2d5.106869176803496!3d51.186227271742126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c135a5aa157c6d%3A0x1396407e23489f20!2sVZW%20KSOM%2C%20Campus%20Sint-Jan%20Berchmanscollege!5e0!3m2!1snl!2sbe!4v1727375274735!5m2!1snl!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    
+</body>
+</html>
