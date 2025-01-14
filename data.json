@@ -4,25 +4,25 @@
                 "naam": "Pineut - Pouchbag watertwist aardbei hibiscus 35 gram",
                 "verkoopprijs": "6.15",
                 "description": "Gezond en fris, dat is tafelwater van Pineut. Met één eetlepel van deze fruitige mix maak je in 30 minuten een halve liter water. Lekker voor thuis of voor onderweg, want de verpakking is compact en eenvoudig mee te nemen.",
-                "image": "/productImages/watersmaken/watertwist_aardbei_hibiscus.jpg"
+                "image": "images/products/watersmaken/watertwist_aardbei_hibiscus.jpg"
             },
             "Pineut - Pouchbag watertwist appel peer kaneel 40 gram": {
                 "naam": "Pineut - Pouchbag watertwist appel peer kaneel 40 gram",
                 "verkoopprijs": "6.15",
                 "description": "Appel en kaneel. Of toch peer en kaneel. Twee mooie combinaties. Pineut heeft een Water Twist gemaakt met alle drie. Inhoud 40 gram. Deze pouch bag is goed voor 10 liter tafelwater.",
-                "image": "/productImages/watersmaken/watertwist_appel_peer_kaneel.jpg"
+                "image": "images/products/watersmaken/watertwist_appel_peer_kaneel.jpg"
             },
             "Pineut - Pouchbag WT Citrus munt verveinne 20 gram": {
                 "naam": "Pineut - Pouchbag WT Citrus munt verveinne 20 gram",
                 "verkoopprijs": "6.15",
                 "description": "Fris, frisser, frist. Dat is deze Water Twist. Heerlijk om te drinken en een plaatje om te zien. En met een Rotterdamse twist. Alle munt is namelijk afkomstig uit een stadstuin. Inhoud 20 gram. Deze pouchbag is goed voor 10 liter tafelwater.",
-                "image": "/productImages/watersmaken/watertwist_citrus_munt.jpg"
+                "image": "images/products/watersmaken/watertwist_citrus_munt.jpg"
             },
             "Pineut - Pouchbag WT cranberry kers rozemarijn 26 gram": {
                 "naam": "Pineut - Pouchbag WT cranberry kers rozemarijn 26 gram",
                 "verkoopprijs": "6.15",
                 "description": "Cherry meets berry! Tel daar de smaak van de kruidige rozemarijn bij op en je hebt absolutt water met een twist. Een smaakexplosie bomvol antioxidanten. Met één eetlepel van deze fruitige mix maak je in 30 minuten een halve liter water. Lekker voor thuis of onderweg, want de verpakking is compact en eenvoudig mee te nemen.",
-                "image": "/productImages/watersmaken/watertwist_cranberry_kers_rozemarijn.jpg"
+                "image": "images/products/watersmaken/watertwist_cranberry_kers_rozemarijn.jpg"
             }
         },
         "chipsEnZoutjes":{
@@ -30,37 +30,37 @@
                 "naam": "Hoeksche - chips met paprika 150 gram",
                 "verkoopprijs": "2.75",
                 "description": "De aardappels die gebruikt worden om Hoeksche Chips van te maken worden gebakken in die schil en bevatten geen kunstmatige kleur- geur- of smaakstoffen of transvetten.",
-                "image": "/productImages/chipsEnZoutjes/paprikachips.jpg"
+                "image": "images/products/chipsEnZoutjes/paprikachips.jpg"
             },
             "Hoeksche - chips met zeezout 150 gram":{
                 "naam": "Hoeksche - chips met zeezout 150 gram",
                 "verkoopprijs": "2.75",
                 "description": "Ambachtelijk bereide chips, gebakken in zuivere zonnebloemolie uit de Hoeksche Waard met zeezout. De aardappels die gebruikt worden om Hoeksche Chips van te maken worden gebakken in de schil en bevatten geen kunstmatige kleur- geur- of smaakstoffen of transvetten.",
-                "image": "/productImages/chipsEnZoutjes/zeezoutchips.jpg"
+                "image": "images/products/chipsEnZoutjes/zeezoutchips.jpg"
             },
             "Hoeksche - chips met zwarte peper 150 gram":{
                 "naam": "Hoeksche - chips met zwarte peper 150 gram",
                 "verkoopprijs": "2.75",
                 "description": "Ambachtelijke chips met zwarte peper, gebakken in zuivere zonnebloemolie. De aardappels die gebruikt worden om Hoeksche chips van te maken worden gebakken in de schil en bevatten geen kunstmatige kleur- geur- of smaakstoffen of transvetten.",
-                "image": "/productImages/chipsEnZoutjes/zwartepeperchips.jpg"
+                "image": "images/products/chipsEnZoutjes/zwartepeperchips.jpg"
             },
             "Laurieri - schrocchi olijf 175 gram":{
                 "naam": "Laurieri - schrocchi olijf 175 gram",
                 "verkoopprijs": "2.60",
                 "description": "/",
-                "image": "/productImages/chipsEnZoutjes/laurieriolijf.jpg"
+                "image": "images/products/chipsEnZoutjes/laurieriolijf.jpg"
             },
             "Laurieri - schrocchi rozemarijn 175 gram": {
                 "naam": "Laurieri - schrocchi rozemarijn 175 gram",
                 "verkoopprijs": "2.60",
                 "description": "/",
-                "image": "/productImages/chipsEnZoutjes/laurierirozemarijn.jpg"
+                "image": "images/products/chipsEnZoutjes/laurierirozemarijn.jpg"
             },
             "Laurieri - schrocchi zeezout 175 gram":{
                 "naam": "Laurieri - schrocchi zeezout 175 gram",
                 "verkoopprijs": "2.60",
                 "description": "/",
-                "image": "/productImages/chipsEnZoutjes/laurierizeezout.jpg"
+                "image": "images/products/chipsEnZoutjes/laurierizeezout.jpg"
             }
         },
         "koek":{
@@ -68,25 +68,25 @@
                 "naam": "Filo Snaps - Cacao hazelnoot 50 gram",
                 "verkooprijs": "3.25",
                 "description": "De zorgvuldige met de hand gelaagde blaadjes cacao- & vanillebladerdeeg worden besprenkeld met honing en bestrooid met geroosterde hazelnoten. Vervolgens worden ze in een oven geplaatst en tot in de perfectie gebakken. Geniet van deze zoete, knapperige filodeegtraktatie als een lichter alternatief voor cake, avondkoekjes, of feestelijke gebakjes. Perfect te combineren met een kopje thee of koffie alternatief voor cake, avondkoekjes, of feestelijke gebakjes.",
-                "image": "/productImages/koek/filosnapscacaohazelnoot.jpg"
+                "image": "images/products/koek/filosnapscacaohazelnoot.jpg"
             },
             "Filo Snaps - Abrikoos honing 80 gram": {
                 "naam": "Filo Snaps - Abrikoos honing 80 gram",
                 "verkoopprijs": "3.25",
                 "description": "Vers filodeeg wordt met zorg met de hand in lagen verdeeld en rijkelijk bestrooid met gedroogde abrikoos, jumbo haver, pompoen- en zonnebloempitten toegevoegd met een vleugje kaneel. Daarna worden de vellen in hapklare stukken gesneden en goudbruin gebakken tot ze heerlijk knapperig zijn. Als finishing touch wordt er een druppeltje honing toegevoegd. Geniet van deze zoete, knapperige filodeegtraktatie als een lichter alternatief voor cake, avondkoekjes, of feestlijke gebakjes. Perfect te combineren met een kopje thee of koffie.",
-                "image": "/productImages/koek/filosnapsabrikooshoning.jpg"
+                "image": "images/products/koek/filosnapsabrikooshoning.jpg"
             },
             "Filo Snaps - Cacao pistache 50 gram": {
                 "naam": "Filo Snaps - Cacao pistache 50 gram",
                 "verkoopprijs": "3.25",
                 "description": "De zorgvuldig met de hand gelaagde blaadjes cacaofilodeeg worden besprenkeld met honing en bestrooid met korstjes pistache. Daarna worden ze in een oven geplaatst en perfect gebakken. Geniet van deze zoete, knapperige filodeegtraktatie als een lichter alternatief voor cake, avondkoekjes, of feestelijke gebakjes. Perfect te combineren met een kopje thee of koffie.",
-                "image": "/productImages/koek/filosnapscacaopistache.jpg"
+                "image": "images/products/koek/filosnapscacaopistache.jpg"
             },
             "Filo Snaps - Appel kaneel 80 gram": {
                 "naam": "Filo Snaps - Appel kaneel 80 gram",
                 "verkooprijs": "3.25",
                 "description": "Vers filodeeg wordt met zorg met de hand in lagen verdeeld en rijkelijk bestrooid met gedroogde appel, jumbo haver, pompoen- en zonnebloempitten en een vleugje kaneel. Daarna worden de vellen in hapklare stukken gesneden en goudbruin gebakken tot ze heerlijk knapperig zijn. Als finishing touch wordt er een druppeltje honing toegevoegd. Geniet van deze zoete, knapperige filodeegtraktatie als een lichter alternatief voor cake, avondkoekjes, of feestelijke gebakjes. Perfect te combineren met een kopje thee of koffie.",
-                "image": "/productImages/koek/filosnapsappelkaneel.jpg"
+                "image": "images/products/koek/filosnapsappelkaneel.jpg"
             },
             "Filo Snaps - Allegra Aranciata 275 ml": {
                 "naam": "Filo Snaps - Allegra Aranciata 275 ml",
@@ -98,25 +98,25 @@
                 "naam": "Verduijn's Fine Biscuits - Amandelkoekjes 75 gram",
                 "verkoopprijs": "2.75",
                 "description": "Lekkere biscuitjes met echte stukjes amandel. Deze koekjes staan ook wel bekend als amandelbrood en zijn verrassend lekker met kaas.",
-                "image": "/productImages/koek/verduijnamandel.jpg"
+                "image": "images/products/koek/verduijnamandel.jpg"
             },
             "Verduijn's Fine Biscuits - boterwafels 75 gram": {
                 "naam": "Verduijn's Fine Biscuits - boterwafels 75 gram",
                 "verkoopprijs": "2.75",
                 "description": "Heerlijke, traditionele boterwafeltjes gemaakt met echte roomboter. Ook lekker als bijvoorbeeld versiering bij desserts.",
-                "image": "/productImages/koek/verduijnboter.jpg"
+                "image": "images/products/koek/verduijnboter.jpg"
             },
             "Verduijn's Fine Biscuits - chocolade/kokos koekjes 75 gram": {
                 "naam": "Verduijn's Fine Biscuits - chocolade/kokos koekjes 75 gram",
                 "verkooprijs": "2.75",
                 "description": "Heerlijke boterkoekjes met chocolade en kokos gemaakt met echte roomboter. Lekker voor bij de koffie of thee of als bijvoorbeeld versiering bij desserts.",
-                "image": "/productImages/koek/verduijnchocoladekokos.jpg"
+                "image": "images/products/koek/verduijnchocoladekokos.jpg"
             },
             "Verduijn's fine Biscuits - kletskoppen 75 gram": {
                 "naam": "Verduijn's Fine Biscuits - kletskoppen 75 gram",
                 "verkoopprijs": "2.75",
                 "description": ": Lekkere biscuitjes met echte stukjes amandel. Deze koekjes staan ook wel bekend als amandelbrood en zijn verrassend lekker met kaas.",
-                "image": "/productImages/koek/verduijnkletskoppen.jpg"
+                "image": "images/products/koek/verduijnkletskoppen.jpg"
             }
         },
         "chocolade": {
@@ -124,55 +124,55 @@
                 "naam": "The Finest in Chocolate",
                 "verkoopprijs": "5.20",
                 "description": "Luxe assortiment chocolade musketflikken in bakje.",
-                "image": "/productImages/chocolade/chocolatemusket.jpg"
+                "image": "images/products/chocolade/chocolatemusket.jpg"
             },
             "The Finest in Chocolate - bakje plaatjes caramel zeezout 175 gram": {
                 "naam": "The Finest in Chocolate - bakje plaatjes caramel zeezout 175 gram",
                 "verkoopprijs": "5.50",
                 "description": "Heerlijk knapperige chocolade plaatjes met gezouten karamelfudge blokjes.",
-                "image": "/productImages/chocolade/chocolatecaramelzeezout.jpg"
+                "image": "images/products/chocolade/chocolatecaramelzeezout.jpg"
             },
             "The Finest in Chocolate - breekchocolade melk met cranberry 175 gram": {
                 "naam": "The Finest in Chocolate - breekchocolade melk met cranberry 175 gram",
                 "verkoopprijs": "4.75",
                 "description": "Heerlijke stukken melkchocolade om zelf in kleine stukjes te breken of in grote stukken te houden. De cranberry zorgt voor een bijzondere twist en geeft een lekkere bite. Echt genieten dus!",
-                "image": "/productImages/chocolade/breekchocoladecranberry.jpg"
+                "image": "images/products/chocolade/breekchocoladecranberry.jpg"
             },
             "The Finest in Chocolate - breekchocolade melk met studentenhaver 150 gram": {
                 "naam": "The Finest in Chocolate - breekchocolade melk met studentenhaver 150 gram",
                 "verkoopprijs": "4.75",
                 "description": "Heerlijke stukken melkchocolade om zelf in kleine stukjes te breken of in grote stukken te houden. De studentenhaver maakt de chocolade helemaal af en zorgt voor een lekkere bite. Echt genieten dus!",
-                "image": "/productImages/chocolade/breekchocoladehaver.jpg"
+                "image": "images/products/chocolade/breekchocoladehaver.jpg"
             },
             "The Finest in Chocolate - breekchocolade wit parelsuiker aardbei 150 gram": {
                 "naam": "The Finest in Chocolate - breekchocolade wit parelsuiker aardbei 150 gram",
                 "verkoopprijs": "4.75",
                 "description": "Heerlijke stukken witte chocolade om zelf in kleine stukjes te breken of in grote stukken te houden. De aardbeien parelsuiker ziet er niet alleen prachtig uit maar geeft ook een knapperige bite aan de chocolade. Echt genieten dus!",
-                "image": "/productImages/chocolade/breekchocoladeparelsuiker.jpg"
+                "image": "images/products/chocolade/breekchocoladeparelsuiker.jpg"
             },
             "Barú - marshmallow bar chai latte 30 gram":{
                 "naam": "Barú - marshmallow bar chai latte 30 gram",
                 "verkoopprijs": "1.55",
                 "description": "Marshmallowbar met melkchocolade en de kruidige smaak van chai latte. Verpakt per 18 bars in een mooie display!",
-                "image": "/productImages/chocolade/baruchailatte.png"
+                "image": "images/products/chocolade/baruchailatte.png"
             },
             "Barú - marshmallow bar crunchy hazelnut 30 gram": {
                 "naam": "Barú - marshmallow bar chai latte 30 gram",
                 "verkoopprijs": "1.55",
                 "description": "Marshmallowbar met pure chocolade en crunchy cashew crisp. Verpakt per 18 bars in een mooie display!",
-                "image": "/productImages/chocolade/barucrunchyhazelnoot.jpg"
+                "image": "images/products/chocolade/barucrunchyhazelnoot.jpg"
             },
             "Barú - marshmallow bar sea salt caramel 30 gram": {
                 "naam": "Barú - marshmallow bar sea salt caramel 30 gram",
                 "verkoopprijs": "1.55",
                 "description": "Marshmallow bar met pure chocolade, zeezout en caramel. Een heerljke combinatie tussen zout en zoet, verpakt per 18 bars in een mooi display!",
-                "image": "/productImages/chocolade/baruzeezoutcaramel.jpg"
+                "image": "images/products/chocolade/baruzeezoutcaramel.jpg"
             },
             "Verduijn's Fine Biscuits - cacao wafel 75 gram": {
                 "naam": "Verduijn's Fine Biscuits - cacao wafel 75 gram",
                 "verkoopprijs": "2.75",
                 "description": "Donkerbruine wafel met cacaopoeder en boter, met een zachte crunch. Het nieuwste idee bij Verduijn's Fine Biscuits was om de populaire boterwafel te combineren met cacao. Proef zelf hoe de boter en cacao perfect samengaan bij koffie of thee, of geniet er gewoon van als een heerlijke, knapperige traktatie.",
-                "image": "/productImages/chocolade/verduijncacaowafel.jpg"
+                "image": "images/products/chocolade/verduijncacaowafel.jpg"
             }
         },
         "baru poeders": {
@@ -180,49 +180,49 @@
                 "naam": "Baru - white chocolate latte 250 gram",
                 "verkoopprijs": "6.95",
                 "description": "Voeg warme melk toe voor een heerlijke latte met witte chocolade! Leuk in combinatie m,et de Barú Pink Mug.",
-                "image": "/productImages/baruPoeders/baruwhitechocolate.jpg"
+                "image": "images/products/baruPoeders/baruwhitechocolate.jpg"
             },
              "Baru - fluffy marshmallow chocolate powder 250 gram": {
                 "naam": "Baru - fluffy marshmallow chocolate powder 250 gram",
                 "verkoopprijs": "6.95",
                 "description": "Dit poeder bevat fluffy marshmallows voor een extra fluffy chocolademelk. Om te delen met de hele familie (of niet!). Simpelweg warme melk, soja of amandelmelk toevoegen en genieten! Leuk samen met de Barú Blue Mug.",
-                "image": "/productImages/baruPoeders/barumarshmallowchocolate.jpg"
+                "image": "images/products/baruPoeders/barumarshmallowchocolate.jpg"
             },
             "Baru - dark hot chocolate powder 250 gram": {
                 "naam": "Baru - dark hot chocolate powder 250 gram",
                 "verkoopprijs": "6.95",
                 "description": "Met dit poeder maak je de heerljikste chocolademelk. Het enige waar je zelf nog voor hoeft te zorgen is opgewarmde melk!",
-                "image": "/productImages/baruPoeders/barudarkchocolate.jpg"
+                "image": "images/products/baruPoeders/barudarkchocolate.jpg"
             },
             "Baru - swirly chocolate powder 250 gram": {
                 "naam": "Baru - swirly chocolate powder 250 gram",
                 "verkoopprijs": "6.95",
                 "description": "Terwijl onze kleine chocolade figuurtjes zachtjes wegsmelten, vullen ze je mok met een heerlijk chocoladearoma. Voor een moment van swirly inspiratie! Simpelweg warme melk, soja of amandelmelk toevoegen. Leuk in combinatie met de Barú Red Mug.",
-                "image": "/productImages/baruPoeders/baruswirlychocolate.jpg"
+                "image": "images/products/baruPoeders/baruswirlychocolate.jpg"
             },
             "Baru - golden chai latte 250 gram": {
                 "naam": "Baru - golden chai latte 250 gram",
                 "verkoopprijs": "6.95",
                 "description": "Een Golden Latte is een smaakvol drankje met kurkuma, een felgeel specerij bekend om zijn ontstekingsremmende eigenschappen. Deze vegan Golden Chai bevat zwarte thee, exotische specerijen en kurkuma.",
-                "image": "/productImages/baruPoeders/barugoldenchai.jpg"
+                "image": "images/products/baruPoeders/barugoldenchai.jpg"
             },
             "Baru - matcha latte 250 gram": {
                 "naam": "Baru - matcha latte 250 gram",
                 "verkoopprijs": "6.95",
                 "description": "Terwijl de lente nadert, hebben we iets lekkers om het seizoen te vieren: Matcha Latte! Het is een heerlijke groene thee met een vleugje zoetheid, lekker om gezellig van te genieten. Onze romige twist op de klassieke matcha thee is snel te maken, zowel warm als koud!",
-                "image": "/productImages/baruPoeders/barumatcha.jpg"
+                "image": "images/products/baruPoeders/barumatcha.jpg"
             },
             "Baru - pumpkin spice latte 250 gram": {
                 "naam": "Baru - pumpkin spice latte 250 gram",
                 "verkoopprijs": "6.95",
                 "description": "Herfst in een kopje. Deze pumpkin spice late van Barú is een blend van espresso, pompoen, kaneel en Jamaicaanse peper. Het meeste gezellige drankje voor de meest sfeervolle periode van het jaar. Voeg alleen nog (plantaardige) melk toe en geniet.",
-                "image": "/productImages/baruPoeders/barupumpkinspcie.jpg"
+                "image": "images/products/baruPoeders/barupumpkinspcie.jpg"
             },
             "Baru - vanilla chai latte 250 gram": {
                 "naam": "Baru - vanilla chai latte 250 gram",
                 "verkoopprijs": "6.95",
                 "description": "Van deze Vanilla Chai Latte zal je zeker kunnen genieten. Deze vegan chai latte is gemaakt met zwarte thee en specerijen. Voeg hier opgeschuimde (plantaardige) warme melk aan toe en zorg voor een heerlijk genietmoment voor jezelf of samen met vrienden. Probeer ook eens een Iced (Vanilla) Chai Latte of een Dirty Iced Chai.",
-                "image": "/productImages/baruPoeders/baruvanillechai.png"
+                "image": "images/products/baruPoeders/baruvanillechai.png"
             }
         },
         "pasta": {
@@ -230,31 +230,31 @@
                 "naam": "Di Nonna Pippina - bucatini 500 gram",
                 "verkoopprijs": "4.75",
                 "description": "Bucatini lijkt wat op spaghetti, maar is wat grover qua structuur, en uitgehold.",
-                "image": "/productImages/pasta/dinonnabucatini.jpg"
+                "image": "images/products/pasta/dinonnabucatini.jpg"
             },
             "Di Nonna Pippina - fettuccine all'uovo 500 gram": {
                 "naam": "Di Nonna Pippina - fettuccine all'uovo 500 gram",
                 "verkoopprijs": "4.75",
                 "description": "Fettuccine all'uovo",
-                "image": "/productImages/pasta/dinonnafettuccine.jpg"
+                "image": "images/products/pasta/dinonnafettuccine.jpg"
             },
             "Di Nonna Pippina - orecchiette 500 gram": {
                 "naam": "Di Nonna Pippina - orecchiette 500 gram",
                 "verkoopprijs": "4.75",
                 "description": "Orecchiette worden ook (net als alle andere pasta’s van Le Bontà di Nonna Pippina) van semola di grano duro (meel van durum tarwe) gemaakt, en hebben de vorm van een hoedje (oortje) van 2 à 3 centimeterdoorsnede. Het deukje wordt met de duim in een schijfje pasta gedrukt, waarna de pasta wordt gedroogd.",
-                "image": "/productImages/pasta/dinonnaorechiette.jpg"
+                "image": "images/products/pasta/dinonnaorechiette.jpg"
             },
             "Di Nonna Pippina - fusilli 5 sapori 500 gram": {
                 "naam": "Di Nonna Pippina - fusilli 5 sapori 500 gram",
                 "verkoopprijs": "4.75",
                 "description": "Fusilli gemaakt van de allerbeste pasta",
-                "image": "/productImages/pasta/dinonnafusili.jpg"
+                "image": "images/products/pasta/dinonnafusili.jpg"
             },
             "Di Nonna Pippina - mafaldine 500 gram": {
                 "naam": "Di Nonna Pippina - mafaldine 500 gram",
                 "verkopprijs": "4.75",
                 "description": "Mafaldine pasta",
-                "image": "/productImages/pasta/dinonnamafaldine.jpg"
+                "image": "images/products/pasta/dinonnamafaldine.jpg"
             }            
         },
         "pastasauzen": {
@@ -262,25 +262,25 @@
                 "naam": "Di Nonna Pippina - sugo alla putanesca 300 gram",
                 "verkoopprijs": "3.95",
                 "description": "Sugo alla putanesca",
-                "image": "/productImages/pastaSauzen/dinonnaputanesca.jpg"
+                "image": "images/products/pastaSauzen/dinonnaputanesca.jpg"
             },
             "Di Nonna Pippina - sugo campagnola di pomodoro 300 gram": {
                 "naam": "Di Nonna Pippina - sugo campagnola di pomodoro 300 gram",
                 "verkoopprijs": "3.95",
                 "description": "Sugo campagnola di pomodoro",
-                "image": "/productImages/pastaSauzen/dinonnapomodoro.jpg"
+                "image": "images/products/pastaSauzen/dinonnapomodoro.jpg"
             },
             "Di Nonna Pippina - sugo mediterranea piccante 300 gram": {
                 "naam": "Di Nonna Pippina - sugo mediterranea piccante 300 gram",
                 "verkopprpijs": "3.95",
                 "description": "Sugo mediterranea piccante",
-                "image": "/productImages/pastaSauzen/dinonnapiccante.jpg"
+                "image": "images/products/pastaSauzen/dinonnapiccante.jpg"
             },
             "Di Nonna Pippina - sugo pomodoro al basilico 300 gram":{
                 "naam": "Di Nonna Pippina - sugo pomodoro al basilico 300 gram",
                 "verkoopprijs":"3.95",
                 "description": "Sugo pomodoro al basilico",
-                "image": "/productImages/pastaSauzen/dinonnabasilico.jpg"
+                "image": "images/products/pastaSauzen/dinonnabasilico.jpg"
             }
         },
         "pesto": {
@@ -288,13 +288,13 @@
                 "naam": "Delicious Food and Gourmet - groene pesto 156 ml",
                 "verkoopprijs": "3.75",
                 "description": "Groene pesto. Pesto is een authentiek Italiaans mengsel van cashewnoten en basilicum, deze versie is verrijkt met heerlijke Parmezaanse kaas, knoflook,  pijnboompitjes en walnoten. Een pasta pesto is altijd lekker. Een ander recept dat jemisschien nog niet kent met aardappels vindt je bij recept.",
-                "image": "/productImages/pesto/groene_pesto.jpg"
+                "image": "images/products/pesto/groene_pesto.jpg"
             },
             "Delicious Food and Gourmet - pesto rosso 156 ml": {
                 "naam": "Delicious Food and Gourmet - pesto rosso 156 ml",
                 "verkoopprijs": "3.75",
                 "description": "Rode pesto met tomaten en basilicum. Pesto is een authentiek Italiaans mengsel van cashewnoten en basilicum, deze versie is rood van kleur door de toevoeging van sappige tomaatjes. Verder zit er ook natuurlijk heerlijke Parmezaanse kaas en olijfolie in voor de smaak. Verras je familie of vrienden een keer met een rode pasta pesto!",
-                "image": "/productImages/pesto/pesto_rosso.jpg"
+                "image": "images/products/pesto/pesto_rosso.jpg"
             }
         },
         "tapenade": {
@@ -302,25 +302,25 @@
                 "naam": "Delicious Food and Gourmet - tapenade bruschetta 156 ml",
                 "verkoopprijs": "3.00",
                 "description": "Grove Bruchetta tapenade. De Grove stukjes zongedroogde Tomaat geven de tapenade nog een extra boost!",
-                "image": "/productImages/tapenade/tapenadebruschetta.jpg"
+                "image": "images/products/tapenade/tapenadebruschetta.jpg"
             },
             "Delicious Food and Gourmet - tapenade di peperoni 156 ml": {
                 "naam": "Delicious Food and Gourmet - tapenade di peperoni 156 ml",
                 "verkoopprijs": "3.00",
                 "description": "Zoet en spicey! De Sweet African Pepper Tapenade is een heerlijke frisse tapenade. Een ware smaakexplosie van zwarte olijven en paprika!",
-                "image": "/productImages/tapenade/tapenadepeperoni.jpg"
+                "image": "images/products/tapenade/tapenadepeperoni.jpg"
             },
             "Delicious Food and Gourmet - tapenade feta 90 ml": {
                 "naam": "Delicious Food and Gourmet - tapenade feta 90 ml",
                 "verkoopprpijs": "3.00",
                 "description": "Deze heerlijke tapenade is op basis van zongedroogde tomaat en heeft een éxtra lekkere smaak door de toevoeging van feta. Probeer het eens bij de toast to soop of bij de mini grissini.",
-                "image": "/productImages/tapenade/tapenadefeta.jpg"
+                "image": "images/products/tapenade/tapenadefeta.jpg"
             },
             "Delicious Food and Gourmet - tapenade formaggio 106 ml": {
                 "naam": "Delicious Food and Gourmet - tapenade formaggio 106 ml",
                 "verkoopprijs": "3.00",
                 "description": "Grove tapenade met ambachtelijke oude kaas. Een eigentijdse mix van de Italiaanse en Nederlandse keuken. Deze tapenade heeft een krachtige en onweerstaanbare smaak door de mix van zout en zoet. Al helemaal lekker op geroosterd stokbrood!",
-                "image": "/productImages/tapenade/tapenadeformaggio.jpg"
+                "image": "images/products/tapenade/tapenadeformaggio.jpg"
             }
         },
         "hummus": {
@@ -328,19 +328,19 @@
                 "naam": "Delicious Food and Gourmet - hummus curry 130 gram",
                 "verkoopprijs": "3.00",
                 "description": "De heerlijke frisse Hummus Curry dip is echt een topper voor bij de borrel. In combintie met de toast to scoop natruel komt deze hummus helemaal tot zijn recht!",
-                "image": "/productImages/hummus/hummuscurry.jpg"
+                "image": "images/products/hummus/hummuscurry.jpg"
             },
             "Delicious Food and Gourmet - hummus naturel 130 gram": {
                 "naam": "Delicious Food and Gourmet - hummus naturel 130 gram",
                 "verkoopprijs": "3.00",
                 "description": "Hummus naturel op basis van kikkererwten. Erg lekker voor bij de borrel in combinatie met toastjes, of met groenten!",
-                "image": "/productImages/hummus/hummusnaturel.jpg"
+                "image": "images/products/hummus/hummusnaturel.jpg"
             },
             "Delicious Food and Gourmet - hummus zongedroogde tomaat 130 gram": {
                 "naam": "Delicious Food and Gourmet - hummus zongedroogde tomaat 130 gram",
                 "verkoopprijs": "3.00",
                 "description": "Hummus zongedroogde tomaat op basis van kikkererwten en zongedroogde tomaat. Erg lekker voor bij de borrel in combinatie met toastjes, of met groenten!",
-                "image": "/productImages/hummus/hummustomaat.jpg"
+                "image": "images/products/hummus/hummustomaat.jpg"
             }
         },
         "spotlight": {
@@ -348,25 +348,25 @@
                 "naam": "Baru - fluffy marshmallow chocolate powder 250 gram",
                 "verkoopprijs": "6.95",
                 "description": "Dit poeder bevat fluffy marshmallows voor een extra fluffy chocolademelk. Om te delen met de hele familie (of niet!). Simpelweg warme melk, soja of amandelmelk toevoegen en genieten! Leuk samen met de Barú Blue Mug.",
-                "image": "/productImages/baruPoeders/barumarshmallowchocolate.jpg"
+                "image": "images/products/baruPoeders/barumarshmallowchocolate.jpg"
             },
             "The Finest in Chocolate - breekchocolade melk met cranberry 175 gram": {
                 "naam": "The Finest in Chocolate - breekchocolade melk met cranberry 175 gram",
                 "verkoopprijs": "4.75",
                 "description": "Heerlijke stukken melkchocolade om zelf in kleine stukjes te breken of in grote stukken te houden. De cranberry zorgt voor een bijzondere twist en geeft een lekkere bite. Echt genieten dus!",
-                "image": "/productImages/chocolade/breekchocoladecranberry.jpg"
+                "image": "images/products/chocolade/breekchocoladecranberry.jpg"
             },
             "Hoeksche - chips met zeezout 150 gram":{
                 "naam": "Hoeksche - chips met zeezout 150 gram",
                 "verkoopprijs": "2.75",
                 "description": "Ambachtelijk bereide chips, gebakken in zuivere zonnebloemolie uit de Hoeksche Waard met zeezout. De aardappels die gebruikt worden om Hoeksche Chips van te maken worden gebakken in de schil en bevatten geen kunstmatige kleur- geur- of smaakstoffen of transvetten.",
-                "image": "/productImages/chipsEnZoutjes/zeezoutchips.jpg"
+                "image": "images/products/chipsEnZoutjes/zeezoutchips.jpg"
             },
             "Di Nonna Pippina - sugo campagnola di pomodoro 300 gram": {
                 "naam": "Di Nonna Pippina - sugo campagnola di pomodoro 300 gram",
                 "verkoopprijs": "3.95",
                 "description": "Sugo campagnola di pomodoro",
-                "image": "/productImages/pastaSauzen/dinonnapomodoro.jpg"
+                "image": "images/products/pastaSauzen/dinonnapomodoro.jpg"
             }
         },
         "handzeep": {
@@ -374,37 +374,37 @@
                 "naam": "Handzeep parfum o.b.v. kokos- en olijfolie 400ml",
                 "verkoopprijs": "8.95",
                 "description": "/",
-                "image": "/productImages/handzeep/parfumKokosOlijfolie.jpg"
+                "image": "images/products/handzeep/parfumKokosOlijfolie.jpg"
             },
             "Handzeep 250 ml parfum Aloe Vera transparant": {
                 "naam": "Handzeep 250 ml parfum Aloe Vera transparant",
                 "verkoopprijs": "5.95",
                 "description": "/",
-                "image": "/productImages/handzeep/parfumAloeVera.jpg"
+                "image": "images/products/handzeep/parfumAloeVera.jpg"
             },
             "Handzeep parfum lotus jasmijn o.b.v. kokos- en olijfolie 400 ml": {
                 "naam": "Handzeep parfum lotus jasmijn o.b.v. kokos- en olijfolie 400 ml",
                 "verkoopprijs": "8.95",
                 "description": "/",
-                "image": "/productImages/handzeep/parfumLotusJasmijn.jpg"
+                "image": "images/products/handzeep/parfumLotusJasmijn.jpg"
             },
             "Handzeep parfum Cashmere zwarte fles glans 250 ml": {
                 "naam": "Handzeep parfum Cashmere zwarte fles glans 250 ml",
                 "verkoopprijs": "7.95",
                 "description": "/",
-                "image": "/productImages/handzeep/parfumCashmere.jpg"
+                "image": "images/products/handzeep/parfumCashmere.jpg"
             },
             "Handzeep parfum Rozemarijn": {
                 "naam": "Handzeep parfum Rozemarijn",
                 "verkoopprijs": "7.50",
                 "description": "/",
-                "image": "/productImages/handzeep/parfumRozemarijn.jpg"
+                "image": "images/products/handzeep/parfumRozemarijn.jpg"
             },
             "Handzeep parfum Amber kokos- en olijfolie 250 ml": {
                 "naam": "Handzeep parfum Amber kokos- en olijfolie 250 ml",
                 "verkoopprijs": "7.95",
                 "description": "/",
-                "image": "/productImages/handzeep/parfumAmberKokos.jpg"
+                "image": "images/products/handzeep/parfumAmberKokos.jpg"
             }
         },
         "roomspray": {
@@ -412,13 +412,13 @@
                 "naam": "Roomspray Aloe Vera 250ML",
                 "verkoopprijs": "10.00",
                 "description": "/",
-                "image": "/productImages/handzeep/roomsprayAloeVera.jpg"
+                "image": "images/products/handzeep/roomsprayAloeVera.jpg"
             },
             "Roomspray Vijg 250ML": {
                 "naam": "Roomspray Vijg 250ML",
                 "verkoopprijs": "10.00",
                 "description": "/",
-                "image": "/productImages/handzeep/roomsprayVijg.jpg"
+                "image": "images/products/handzeep/roomsprayVijg.jpg"
             }
         },
         "geurstokje": {
@@ -426,25 +426,25 @@
                 "naam": "Geurstokjes parfum Lotus Jasmijn",
                 "verkoopprijs": "7.95",
                 "description": "/",
-                "image": "/productImages/geurstokjes/lotusJasmijn.jpg"
+                "image": "images/products/geurstokjes/lotusJasmijn.jpg"
             },
             "Geurstokjes parfum Cashmere": {
                 "naam": "Geurstokjes parfum Cashmere",
                 "verkoopprijs": "7.95",
                 "description": "/",
-                "image": "/productImages/geurstokjes/cashmere.jpg"
+                "image": "images/products/geurstokjes/cashmere.jpg"
             },
             "Geurstokjes parfum Rozemarijn": {
                 "naam": "Geurstokjes parfum Rozemarijn",
                 "verkoopprijs": "7.95",
                 "description": "/",
-                "image": "/productImages/geurstokjes/rozemarijn.jpg"
+                "image": "images/products/geurstokjes/rozemarijn.jpg"
             },
             "Geurstokjes Parfum Amber": {
                 "naam": "Geurstokjes Parfum Amber",
                 "verkoopprijs": "7.95",
                 "description": "/",
-                "image": "/productImages/geurstokjes/amber.jpg"
+                "image": "images/products/geurstokjes/amber.jpg"
             }
         },
         "geur-hart": {
@@ -452,55 +452,55 @@
                 "naam": "Hart 55 gram Argille groen, basilicum, parfum citroen basilicum",
                 "verkoopprijs": "3.50",
                 "description": "/",
-                "image": "/productImages/geurhart/citroenBasillicum.jpg"
+                "image": "images/products/geurhart/citroenBasillicum.jpg"
             },
             "Hart 55 gram licht taupe parfum Cashmere": {
                 "naam": "Hart 55 gram licht taupe parfum Cashmere",
                 "verkoopprijs": "3.50",
                 "description": "/",
-                "image": "/productImages/geurhart/cashmere.jpg"
+                "image": "images/products/geurhart/cashmere.jpg"
             },
             "Hart 55 gram lila met lavendelbloesem, geur lavendel": {
                 "naam": "Hart 55 gram lila met lavendelbloesem, geur lavendel",
                 "verkoopprijs": "3.50",
                 "description": "/",
-                "image": "/productImages/geurhart/lavendel.jpg"
+                "image": "images/products/geurhart/lavendel.jpg"
             },
             "Hart 55 gram argile jaune parfum lotus jasmijn": {
                 "naam": "Hart 55 gram argile jaune parfum lotus jasmijn",
                 "verkoopprijs": "3.50",
                 "description": "/",
-                "image": "/productImages/geurhart/lotusJasmijn.jpg"
+                "image": "images/products/geurhart/lotusJasmijn.jpg"
             },
             "Hart 55 gram muntblad parfum verbena": {
                 "naam": "Hart 55 gram muntblad parfum verbena",
                 "verkoopprijs": "3.50",
                 "description": "/",
-                "image": "/productImages/geurhart/verbena.jpg"
+                "image": "images/products/geurhart/verbena.jpg"
             },
             "Hart 55 gram donker grijs parfum groene thee": {
                 "naam": "Hart 55 gram donker grijs parfum groene thee",
                 "verkoopprijs": "3.50",
                 "description": "/",
-                "image": "/productImages/geurhart/groeneThee.jpg"
+                "image": "images/products/geurhart/groeneThee.jpg"
             },
             "Hart 55 gram legergroen parfum olive": {
                 "naam": "Hart 55 gram legergroen parfum olive",
                 "verkoopprijs": "3.50",
                 "description": "/",
-                "image": "/productImages/geurhart/olive.jpg"
+                "image": "images/products/geurhart/olive.jpg"
             },
             "Hart 55 gram naturel met rozemarijn parfum mille fleurs": {
                 "naam": "Hart 55 gram naturel met rozemarijn parfum mille fleurs",
                 "verkoopprijs": "3.50",
                 "description": "/",
-                "image": "/productImages/geurhart/milleFleurs.jpg"
+                "image": "images/products/geurhart/milleFleurs.jpg"
             },
             "Hart 55 gram licht blauw parfum linnen": {
                 "naam": "Hart 55 gram licht blauw parfum linnen",
                 "verkoopprijs": "3.50",
                 "description": "/",
-                "image": "/productImages/geurhart/linnen.png"
+                "image": "images/products/geurhart/linnen.png"
             }
         },
         "ansichtkaart": {
@@ -508,91 +508,91 @@
                 "naam": "Ansichtkaart Go for it",
                 "verkoopprijs": "0.95",
                 "description": "/",
-                "image": "/productImages/ansichtkaart/goForIt.png"
+                "image": "images/products/ansichtkaart/goForIt.png"
             },
             "Ansichtkaart Merry Xmas (boom)": {
                 "naam": "Ansichtkaart Merry Xmas (boom)",
                 "verkoopprijs": "0.95",
                 "description": "/",
-                "image": "/productImages/ansichtkaart/merryXmasBoom.png"
+                "image": "images/products/ansichtkaart/merryXmasBoom.png"
             },
             "Ansichtkaart zwart/wit Feestje!": {
                 "naam": "Ansichtkaart zwart/wit Feestje!",
                 "verkoopprijs": "0.95",
                 "description": "/",
-                "image": "/productImages/ansichtkaart/feestje.png"
+                "image": "images/products/ansichtkaart/feestje.png"
             },
             "Ansichtkaart Beetje geluk wit/zwart": {
                 "naam": "Ansichtkaart Beetje geluk wit/zwart",
                 "verkoopprijs": "0.95",
                 "description": "/",
-                "image": "/productImages/ansichtkaart/beetjeGeluk.png"
+                "image": "images/products/ansichtkaart/beetjeGeluk.png"
             },
             "Ansichtkaart Gefeliciteerd XXX": {
                 "naam": "Ansichtkaart Gefeliciteerd XXX",
                 "verkoopprijs": "0.95",
                 "description": "/",
-                "image": "/productImages/ansichtkaart/gefeliciteerdXxx.jpg"
+                "image": "images/products/ansichtkaart/gefeliciteerdXxx.jpg"
             },
             "Ansichtkaart Bedankt XXX": {
                 "naam": "Ansichtkaart Bedankt XXX",
                 "verkoopprijs": "0.95",
                 "description": "/",
-                "image": "/productImages/ansichtkaart/bedanktXxx.png"
+                "image": "images/products/ansichtkaart/bedanktXxx.png"
             },
             "Ansichtkaart zwart/wit ps. met hart": {
                 "naam": "Ansichtkaart zwart/wit ps. met hart",
                 "verkoopprijs": "0.95",
                 "description": "/",
-                "image": "/productImages/ansichtkaart/psHart.jpg"
+                "image": "images/products/ansichtkaart/psHart.jpg"
             },
             "Ansichtkaart Kadootje wit/zwart": {
                 "naam": "Ansichtkaart Kadootje wit/zwart",
                 "verkoopprijs": "0.95",
                 "description": "/",
-                "image": "/productImages/ansichtkaart/kadootje.png"
+                "image": "images/products/ansichtkaart/kadootje.png"
             },
             "Ansichtkaart Dikke kus X wit/zwart": {
                 "naam": "Ansichtkaart Dikke kus X wit/zwart",
                 "verkoopprijs": "0.95",
                 "description": "/",
-                "image": "/productImages/ansichtkaart/dikkeKus.png"
+                "image": "images/products/ansichtkaart/dikkeKus.png"
             },
             "Ansichtkaart Zomaar XXX": {
                 "naam": "Ansichtkaart Zomaar XXX",
                 "verkoopprijs": "0.95",
                 "description": "/",
-                "image": "/productImages/ansichtkaart/zomaar.png"
+                "image": "images/products/ansichtkaart/zomaar.png"
             },
             "Ansichtkaart Bedankt wit/zwart": {
                 "naam": "Ansichtkaart Bedankt wit/zwart",
                 "verkoopprijs": "0.95",
                 "description": "/",
-                "image": "/productImages/ansichtkaart/bedankt.png"
+                "image": "images/products/ansichtkaart/bedankt.png"
             },
             "Ansichtkaart gefeliciteerd wit/zwart": {
                 "naam": "Ansichtkaart gefeliciteerd wit/zwart",
                 "verkoopprijs": "0.95",
                 "description": "/",
-                "image": "/productImages/ansichtkaart/gefeliciteerd.png"
+                "image": "images/products/ansichtkaart/gefeliciteerd.png"
             },
             "Ansichtkaart Love You": {
                 "naam": "Ansichtkaart Love You",
                 "verkoopprijs": "0.95",
                 "description": "/",
-                "image": "/productImages/ansichtkaart/loveYou.png"
+                "image": "images/products/ansichtkaart/loveYou.png"
             },
             "Ansichtkaart MerryXmas zwart/wit": {
                 "naam": "Ansichtkaart MerryXmas zwart/wit",
                 "verkoopprijs": "0.95",
                 "description": "/",
-                "image": "/productImages/ansichtkaart/merryXmas.png"
+                "image": "images/products/ansichtkaart/merryXmas.png"
             },
             "Ansichtkaart zwart/wit voor jou met bloemen": {
                 "naam": "Ansichtkaart zwart/wit voor jou met bloemen",
                 "verkoopprijs": "0.95",
                 "description": "/",
-                "image": "/productImages/ansichtkaart/bloemen.png"
+                "image": "images/products/ansichtkaart/bloemen.png"
             }
         },
         "servet": {
@@ -600,49 +600,49 @@
                 "naam": "Servet kerstboom goud",
                 "verkoopprijs": "3.50",
                 "description": "/",
-                "image": "/productImages/servet/kerstboomGoud.jpg"
+                "image": "images/products/servet/kerstboomGoud.jpg"
             },
             "Servet Bloem blauw": {
                 "naam": "Servet Bloem blauw",
                 "verkoopprijs": "3.50",
                 "description": "/",
-                "image": "/productImages/servet/bloemBlauw.jpg"
+                "image": "images/products/servet/bloemBlauw.jpg"
             },
             "Servet bloem Craspedia geel": {
                 "naam": "Servet bloem Craspedia geel",
                 "verkoopprijs": "3.25",
                 "description": "/",
-                "image": "/productImages/servet/craspediaGeel.jpg"
+                "image": "images/products/servet/craspediaGeel.jpg"
             },
             "Servet pluim oud roze achtergrond": {
                 "naam": "Servet pluim oud roze achtergrond",
                 "verkoopprijs": "3.50",
                 "description": "/",
-                "image": "/productImages/servet/pluimRoze.jpg"
+                "image": "images/products/servet/pluimRoze.jpg"
             },
             "Servet Hygge": {
                 "naam": "Servet Hygge",
                 "verkoopprijs": "3.50",
                 "description": "/",
-                "image": "/productImages/servet/hygge.jpg"
+                "image": "images/products/servet/hygge.jpg"
             },
             "Servet Wabi-sabi": {
                 "naam": "Servet Wabi-sabi",
                 "verkoopprijs": "3.50",
                 "description": "/",
-                "image": "/productImages/servet/wabiSabi.jpg"
+                "image": "images/products/servet/wabiSabi.jpg"
             },
             "Servet blad groen/grijs": {
                 "naam": "Servet blad groen/grijs",
                 "verkoopprijs": "3.50",
                 "description": "/",
-                "image": "/productImages/servet/bladGroen.jpg"
+                "image": "images/products/servet/bladGroen.jpg"
             },
             "Servet wilde bloemen": {
                 "naam": "Servet wilde bloemen",
                 "verkoopprijs": "3.50",
                 "description": "/",
-                "image": "/productImages/servet/wildeBloemen.jpg"
+                "image": "images/products/servet/wildeBloemen.jpg"
             }
         },
         "bladwijzer":{
@@ -650,19 +650,19 @@
                 "naam": "Bladwijzer met quote: 'De herfst leert ons hoe mooi loslaten is'",
                 "verkoopprijs": "3.50",
                 "description": "/",
-                "image": "/productImages/planner/bladwijzerHerfst.jpg"
+                "image": "images/products/planner/bladwijzerHerfst.jpg"
             },
             "Bladwijzer met quote: 'Nothing grows without a little rain' in Sunny Petals print": {
                 "naam": "Bladwijzer met quote: 'Nothing grows without a little rain' in Sunny Petals print",
                 "verkoopprijs": "3.50",
                 "description": "/",
-                "image": "/productImages/planner/bladwijzerRain.jpg"
+                "image": "images/products/planner/bladwijzerRain.jpg"
             },
             "Bladwijzer met quote: 'Keep Growing until you Bloom' in Midnight Garden print": {
                 "naam": "Bladwijzer met quote: 'Keep Growing until you Bloom' in Midnight Garden print",
                 "verkoopprijs": "3.50",
                 "description": "/",
-                "image": "/productImages/planner/bladwijzerGrowing.jpg"
+                "image": "images/products/planner/bladwijzerGrowing.jpg"
             }
         },
         "maaltijdplanner": {
@@ -670,13 +670,13 @@
                 "naam": "De ultieme Maaltijdplanner in Midnight Garden print",
                 "verkoopprijs": "26.95",
                 "description": "/",
-                "image": "/productImages/planner/maaltijdplannerMidnight.jpg"
+                "image": "images/products/planner/maaltijdplannerMidnight.jpg"
             },
             "De ultieme Maaltijdplanner in Sunny Petals Print": {
                 "naam": "De ultieme Maaltijdplanner in Sunny Petals Print",
                 "verkoopprijs": "26.95",
                 "description": "/",
-                "image": "/productImages/planner/maaltijdplannerSunny.jpg"
+                "image": "images/products/planner/maaltijdplannerSunny.jpg"
             }
         },
         "weekplanner": {
@@ -684,25 +684,25 @@
                 "naam": "Weekplanner A4 in Sunny Petals print verlijmd",
                 "verkoopprijs": "12.95",
                 "description": "/",
-                "image": "/productImages/planner/weekplannerSunnyLijm.jpg"
+                "image": "images/products/planner/weekplannerSunnyLijm.jpg"
             },
             "Weekplanner A4 in Sunny Petals print ingebonden": {
                 "naam": "Weekplanner A4 in Sunny Petals print ingebonden",
                 "verkoopprijs": "12.95",
                 "description": "/",
-                "image": "/productImages/planner/weekplannerSunnyGebonden.jpg"
+                "image": "images/products/planner/weekplannerSunnyGebonden.jpg"
             },
             "Weekplanner A4 in Midnight Garden print verlijmd": {
                 "naam": "Weekplanner A4 in Midnight Garden print verlijmd",
                 "verkoopprijs": "12.95",
                 "description": "/",
-                "image": "/productImages/planner/weekplannerMidnightLijm.jpg"
+                "image": "images/products/planner/weekplannerMidnightLijm.jpg"
             },
             "Weekplanner A4 in Midnight Garden print ingebonden": {
                 "naam": "Weekplanner A4 in Midnight Garden print ingebonden",
                 "verkoopprijs": "12.95",
                 "description": "/",
-                "image": "/productImages/planner/weekplannerMidnightGebonden.jpg"
+                "image": "images/products/planner/weekplannerMidnightGebonden.jpg"
             }
         },
         "to-do": {
@@ -710,13 +710,13 @@
                 "naam": "To-do lijstje in Sunny Petals print",
                 "verkoopprijs": "6.95",
                 "description": "/",
-                "image": "/productImages/planner/todoSunny.jpg"
+                "image": "images/products/planner/todoSunny.jpg"
             },
             "To-do lijstje in Midnight Garden print": {
                 "naam": "To-do lijstje in Midnight Garden print",
                 "verkoopprijs": "6.95",
                 "description": "/",
-                "image": "/productImages/planner/todoMidnight.jpg"
+                "image": "images/products/planner/todoMidnight.jpg"
             }
         },
         "notitieblok": {
@@ -724,13 +724,13 @@
                 "naam": "Notitieblok A5 'Happy Notes' in Sunny Petals print",
                 "verkoopprijs": "6.95",
                 "description": "/",
-                "image": "/productImages/planner/notitieSunny.jpg"
+                "image": "images/products/planner/notitieSunny.jpg"
             },
             "Notitieblok A5 'Happy Notes' in Midnight Garden print": {
                 "naam": "Notitieblok A5 'Happy Notes' in Midnight Garden print",
                 "verkoopprijs": "6.95",
                 "description": "/",
-                "image": "/productImages/planner/notitieMidnight.jpg"
+                "image": "images/products/planner/notitieMidnight.jpg"
             }
         },
         "memoblok": {
@@ -738,13 +738,13 @@
                 "naam": "Memoblokje zelfklevend in Sunny Petals print",
                 "verkoopprijs": "5.95",
                 "description": "/",
-                "image": "/productImages/planner/memoSunny.jpg"
+                "image": "images/products/planner/memoSunny.jpg"
             },
             "Memoblokje zelfklevend in Midnight Garden print": {
                 "naam": "Memoblokje zelfklevend in Midnight Garden print",
                 "verkoopprijs": "5.95",
                 "description": "/",
-                "image": "/productImages/planner/memoMidnight.jpg"
+                "image": "images/products/planner/memoMidnight.jpg"
             }
         },
         "armband" :{
@@ -752,7 +752,7 @@
                 "naam": "Verschillende handgemaakte armbandjes",
                 "verkoopprijs": "12.50",
                 "description": "/",
-                "image": "/productImages/planner/armband.jpg"
+                "image": "images/products/planner/armband.jpg"
             }
         },
         "sjaal" :{
@@ -760,7 +760,7 @@
                 "naam": "Verschillende handgemaakte sjaals",
                 "verkoopprijs": "10.00",
                 "description": "/",
-                "image": "/productImages/planner/sjaal.jpg"
+                "image": "images/products/planner/sjaal.jpg"
             }
         }
 }

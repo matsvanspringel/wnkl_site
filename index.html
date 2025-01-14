@@ -14,7 +14,7 @@
 
     <script src="script.js"></script>
 </head>
-<body id="body">
+<body id="body" onload="get_spotlights('spotlight')">
     
     <nav class="py-3">
         <div class="container">
@@ -47,11 +47,11 @@
         <div class="col-12">
             <div id="imageWrap">
                 <img id="image1" src="images/slider/slider_001.jpg" alt="Slider 1 image">
-                <img id="image2" src="images/slider/slider_002.jpg" alt="Slider 2 image">
-                <img id="image3" src="images/slider/slider_003.jpg" alt="Slider 3 image">
+                <img id="image2" src="images/slider/slider_003.jpg" alt="Slider 2 image">
+                <img id="image3" src="images/slider/slider_005.jpg" alt="Slider 3 image">
 
-                <i onclick="image_slide(-1)" id="left" class="fa-solid fa-circle-left fa-xl"></i>
-                <i onclick="image_slide(1)" id="right" class="fa-solid fa-circle-right fa-xl"></i>
+                <i onclick="image_slide(-1)" id="left" class="fa-solid fa-circle-left fa-xl p-2"></i>
+                <i onclick="image_slide(1)" id="right" class="fa-solid fa-circle-right fa-xl p-2"></i>
             </div>
         </div>
     </div>
@@ -103,6 +103,10 @@
         <div class="container">
             <div class="row">
                 <h2 class="col-12">Spotlight</h2>
+
+                <div class="col-12">
+                    <div id="spotlightContainer" class="row justify-content-between"></div>
+                </div>
             </div>
         </div>
     </div>
