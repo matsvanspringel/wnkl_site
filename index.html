@@ -11,31 +11,49 @@
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>WNKL - Home</title>
+
+    <script src="script.js"></script>
 </head>
-<body>
+<body id="body">
     
     <nav class="py-3">
         <div class="container">
             <div class="row">
-                <img class="col-md-4" src="images/LOGOWNKLPNG_Tekengebied_1.png" alt="WNKL logo">
+                <img class="col-md-4 mb-3 m-md-0" src="images/LOGOWNKLPNG_Tekengebied_1.png" alt="WNKL logo">
+                <h2 id="dropdown" class="col-12 d-md-none text-center" onclick="dropdown(true)">Menu <i class="fa-solid fa-bars"></i></h2>
 
-                <ul class="col-md-8 d-flex align-items-center    m-0">
-                    <li class="col-2 offset-2"><a class="p-2 link" href="#overOns">Over ons</a></li>
-                    <li class="col-2"><a class="p-2 link" href="">Contact</a></li>
-                    <li class="col-2"><a class="p-2 link" href="">Spotlight</a></li>
-                    <li class="col-2 "><a class="p-2 link" href="">Alle producten</a></li>
-                </ul>
+                <div id="nav-list" class="col-12 m-0">
+                    <ul class="row align-items-start m-0 p-0">
+                        <li class="col-10 py-3"><img src="images/LOGOWNKLPNG_Tekengebied_1.png" alt="Logo WNKL"></li>
+                        <li class="col-2 pt-4" onclick="dropdown(false)"><i class="fa-solid fa-xmark fa-2x"></i></li>
+                        <li class="col-md-2"><a class="p-2 link" href="#overOns">Over ons</a></li>
+                        <li class="col-md-2"><a class="p-2 link" href="#contact">Contact</a></li>
+                        <li class="col-md-2"><a class="p-2 link" href="#spotlight">Spotlight</a></li>
+                        <li class="col-md-2"><a class="p-2 link" href="">Alle producten</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
 
     <div id="home" class="container py-5">
-        <p class="col-12">
+        <p class="col-12 d-none d-md-block">
             Welkom bij <span class="accent">WNKL</span>, onze leeronderneming! Wij zijn drie studenten Retail van het <span class="accent">Campus Sint-Jan Berchmanscollege in Mol</span>. 
             Met WNKL willen we niet alleen wat we op school leren in de praktijk brengen, maar ook nieuwe uitdagingen aangaan. We richten ons op <span class="accent">innovatie en duurzaamheid</span> in de retailsector, 
             en willen met onze projecten een positieve impact maken. Voor ons is dit de perfecte kans om ondernemerschap te ontdekken, van fouten te leren en te groeien. Samen zetten we de volgende 
             stap richting een creatieve en duurzame toekomst.
         </p>
+
+        <div class="col-12">
+            <div id="imageWrap">
+                <img id="image1" src="images/slider/slider_001.jpg" alt="Slider 1 image">
+                <img id="image2" src="images/slider/slider_002.jpg" alt="Slider 2 image">
+                <img id="image3" src="images/slider/slider_003.jpg" alt="Slider 3 image">
+
+                <i onclick="image_slide(-1)" id="left" class="fa-solid fa-circle-left fa-xl"></i>
+                <i onclick="image_slide(1)" id="right" class="fa-solid fa-circle-right fa-xl"></i>
+            </div>
+        </div>
     </div>
 
     <div id="overOns" class="py-5">
@@ -61,7 +79,7 @@
     </div>
 
     <div id="contact" class="container py-5">
-        <div class="row">
+        <div class="row p-2">
             <h2 class="col-12">Contact</h2>
 
             <form class="col-md-6 d-flex flex-wrap p-3" action="https://formspree.io/f/manyyppo" method="post">

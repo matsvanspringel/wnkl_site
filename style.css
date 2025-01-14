@@ -14,6 +14,10 @@ nav ul{
     list-style-type: none;
 }
 
+nav ul li{
+    text-align: center;
+}
+
 nav ul li a{
     font-size: 1.25rem;
 }
@@ -24,6 +28,11 @@ h1, h2{
     font-family: "Bebas Neue", serif;
     font-weight: 400;
     font-style: normal;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
 }
 
 form{
@@ -44,10 +53,51 @@ form textarea{
 iframe{
     border-radius: 5px;
 }
+ 
+i{
+    color: white;
+}
+
+#nav-list{
+    display: none;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: #333;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+#dropdown{
+    text-align: center;
+}
 
 #overOns, #spotlight{
     background-color: #1E6E93;
     color: white;
+}
+
+#imageWrap{
+    position: relative;
+}
+
+#left, #right{
+    color: black;
+    position: absolute;
+    top: 50%;
+}
+
+#left{
+    left: 0;
+}
+
+#right{
+    right: 0;
+}
+
+#image2, #image3{
+    display: none;
 }
 
 #overOns{

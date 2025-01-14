@@ -27,8 +27,6 @@ function change_visibility(change){
 }
 
 function image_slide(number){
-    console.log(slideNumber);
-
     slideNumber += number;
     if(slideNumber < 1){
         slideNumber = 3
@@ -43,61 +41,14 @@ function image_slide(number){
     document.getElementById('image' + slideNumber).style.display = 'flex';
 }
 
-function show_handelaar(handelaar){
-    voets = document.getElementById('voets');
-    blissAndBloom = document.getElementById('blissAndBloom');
-    mijnStijl = document.getElementById('mijnStijl');
-
-    voetsBtn = document.getElementById('voetsButton');
-    blissAndBloomBtn = document.getElementById('blissAndBloomButton');
-    mijnStijlBtn = document.getElementById('mijnStijlButton');
-
-    if(handelaar == "voets"){
-        voets.style.visibility = "visible";
-        blissAndBloom.style.visibility = "hidden";
-        mijnStijl.style.visibility = "hidden";
-        
-        voetsBtn.style.backgroundColor = '#DE8A68'; 
-        blissAndBloomBtn.style.backgroundColor = 'transparent'; 
-        mijnStijlBtn.style.backgroundColor = 'transparent'; 
-    }
-    else if(handelaar == "blissAndBloom"){
-        voets.style.visibility = "hidden";
-        blissAndBloom.style.visibility = "visible";
-        mijnStijl.style.visibility = "hidden"; 
-
-        voetsBtn.style.backgroundColor = 'transparent'; 
-        blissAndBloomBtn.style.backgroundColor = '#DE8A68'; 
-        mijnStijlBtn.style.backgroundColor = 'transparent'; 
-    }
-    else if(handelaar == "mijnStijl"){
-        voets.style.visibility = "hidden";
-        blissAndBloom.style.visibility = "hidden";
-        mijnStijl.style.visibility = "visible"; 
-
-        voetsBtn.style.backgroundColor = 'transparent'; 
-        blissAndBloomBtn.style.backgroundColor = 'transparent'; 
-        mijnStijlBtn.style.backgroundColor = '#DE8A68'; 
-    }
-    else{
-        voets.style.visibility = "hidden";
-        blissAndBloom.style.visibility = "hidden";
-        mijnStijl.style.visibility = "hidden"; 
-
-        voetsBtn.style.backgroundColor = 'transparent';
-        blissAndBloomBtn.style.backgroundColor = 'transparent'; 
-        mijnStijlBtn.style.backgroundColor = 'transparent'; 
-    }
-}
-
 function dropdown(bool){
     if(bool){
-        document.getElementById('dropdownMenu').style.display = 'block';
-        document.getElementById('dropdownHide').style.display = "none";
+        document.getElementById('nav-list').style.display = 'flex';
+        document.getElementById('body').style.overflow = "hidden";
     }
     else{
-        document.getElementById('dropdownMenu').style.display = 'none';
-        document.getElementById('dropdownHide').style.display = "block";
+        document.getElementById('nav-list').style.display = 'none';
+        document.getElementById('body').style.overflow = "inherit";
     }
 }
 
