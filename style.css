@@ -26,14 +26,55 @@ h1, h2{
     font-style: normal;
 }
 
-#overOns{
+form{
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+form input{
+    height: 40px;
+}
+
+form textarea{
+    min-height: 150px;
+    max-height: 150px;
+}
+
+iframe{
+    border-radius: 5px;
+}
+
+#overOns, #spotlight{
     background-color: #1E6E93;
     color: white;
+}
+
+#overOns{
     clip-path: polygon(0 0, 100% 5%, 100% 95%, 0% 100%);
 }
 
 #overOns a{
     font-size: 1.25rem;
+}
+
+#contact h2{
+    color: black;
+}
+
+.primary-button{
+    background-color: #DE8A68;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.primary-button:hover{
+    background-color: #fff;
+    color: #DE8A68;
 }
 
 .link{
