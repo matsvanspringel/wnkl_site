@@ -55,7 +55,7 @@ iframe{
 }
  
 i{
-    color: white;
+    color: #DE8A68;
 }
 
 footer{
@@ -64,7 +64,22 @@ footer{
 }
 
 footer p{
-    font-size: 1.2rem;
+    font-size: 1rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: #DE8A68;
+    border-radius: 5px;
+}
+
+footer a:hover{
+    background-color: #DE8A68;
+    color: white;
+}
+
+footer a:hover i{
+    color: white;
 }
 
 #nav-list{
@@ -93,12 +108,10 @@ footer p{
 }
 
 #left, #right{
-    color: black;
-    background-color: rgba(255, 255, 255, .5);
-    height: 25px;
+    color: white;
     border-radius: 5px;
     position: absolute;
-    top: 50%;
+    top: 12.5vh;
 }
 
 #left:hover, #right:hover{
@@ -177,4 +190,18 @@ footer p{
 .accent{
     color: #A3C6A5;
     font-weight: bold;
+}
+
+.transition{
+    transition: .5s;
+}
+
+@media screen and (min-width: 768px){
+    #nav-list{
+        display: block;
+        position: inherit;
+        height: inherit;
+        width: inherit;
+        background-color: #1E6E93;
+    }
 }

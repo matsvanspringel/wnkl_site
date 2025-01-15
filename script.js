@@ -132,7 +132,7 @@ function get_spotlights(category){
             div.append(h3);
             div.append(p);
 
-            div.classList.add('product','col-md-3','my-2')
+            div.classList.add('product','col-md-3', 'm-md-3', 'pb-2')
 
             //append div to productscontainer
             container.append(div);
