@@ -58,6 +58,15 @@ i{
     color: white;
 }
 
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer p{
+    font-size: 1.2rem;
+}
+
 #nav-list{
     display: none;
     position: absolute;
