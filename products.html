@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-reboot.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>WNKL - Producten</title>
 
@@ -16,23 +17,34 @@
 
     <nav class="py-3">
         <div class="container">
-            <div class="row">
-                <img class="col-md-4 mb-3 m-md-0" src="images/LOGOWNKLPNG_Tekengebied_1.png" alt="WNKL logo">
+            <div class="row justify-content-lg-between align-items-lg-center">
+                <img class="col-md-4 mb-3 m-lg-0" src="images/LOGOWNKLPNG_Tekengebied_1.png" alt="WNKL logo">
                 <h2 id="dropdown" class="col-12 d-md-none text-center" onclick="dropdown(true)">Menu <i class="fa-solid fa-bars"></i></h2>
 
                 <div id="nav-list" class="col-12 m-0">
-                    <ul class="row align-items-start m-0 p-0">
-                        <li class="col-10 py-3"><img src="images/LOGOWNKLPNG_Tekengebied_1.png" alt="Logo WNKL"></li>
-                        <li class="col-2 pt-4" onclick="dropdown(false)"><i class="fa-solid fa-xmark fa-2x"></i></li>
-                        <li class="col-md-2"><a class="p-2 link" href="#overOns">Over ons</a></li>
-                        <li class="col-md-2"><a class="p-2 link" href="#contact">Contact</a></li>
-                        <li class="col-md-2"><a class="p-2 link" href="#spotlight">Spotlight</a></li>
-                        <li class="col-md-2"><a class="p-2 link" href="">Alle producten</a></li>
+                    <ul class="row align-items-md-center m-0 p-0">
+                        <li class="col-md-3"><a class="p-2 link" href="index.html#overOns">Over ons</a></li>
+                        <li class="col-md-3"><a class="p-2 link" href="index.html#contact">Contact</a></li>
+                        <li class="col-md-3"><a class="p-2 link" href="index.html#spotlight">Spotlight</a></li>
+                        <li class="col-md-3"><a class="p-2 link" href="products.html">Alle&nbsp;producten</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </nav>
+
+    <footer id="productsFooter" class="py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <p class="col-md-6">
+                    &copy; WNKL 2024 - <a class="p-1 transition" href="https://instagram.com/w_nk_l/"><i class="fa-brands fa-instagram transition"></i> Instagram</a>
+                </p>
+
+                <p class="col-md-3 offset-md-3">
+                    Ontworpen door <a class="p-1 transition" href="https://instagram.com/mavadesign_be/">MAVA-Design</a>
+                </p>
+        </div>
+    </footer>
     
 </body>
 </html>

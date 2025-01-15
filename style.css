@@ -4,6 +4,8 @@ html{
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    min-height: 100vh;
 }
 
 nav{
@@ -80,6 +82,12 @@ footer a:hover{
 
 footer a:hover i{
     color: white;
+}
+
+#productsFooter{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 #nav-list{
