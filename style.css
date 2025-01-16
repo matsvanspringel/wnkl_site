@@ -112,14 +112,16 @@ footer a:hover i{
 
 #imageWrap{
     position: relative;
-    height: 25vh;
+    left: 25%;
+    height: 400px;
+    width: 400px;
 }
 
 #left, #right{
     color: white;
     border-radius: 5px;
     position: absolute;
-    top: 12.5vh;
+    top: 45%;
 }
 
 #left:hover, #right:hover{
@@ -195,13 +197,18 @@ footer a:hover i{
     color: white;
 }
 
+.sliderImage{
+    height: inherit;
+    width: inherit;
+}
+
 .accent{
     color: #A3C6A5;
     font-weight: bold;
 }
 
 .transition{
-    transition: .5s;
+    transition: .25s;
 }
 
 @media screen and (min-width: 768px){
