@@ -86,7 +86,7 @@ function product_categories(category){
             div.append(h3);
             div.append(p);
 
-            div.classList.add('product');
+            div.classList.add('product','col-md-3', 'm-md-3', 'pb-2');
 
             //append div to productscontainer
             container.append(div);

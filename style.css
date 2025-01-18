@@ -84,10 +84,8 @@ footer a:hover i{
     color: white;
 }
 
-#productsFooter{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+#productTitle{
+    color: black;
 }
 
 #nav-list{
@@ -200,6 +198,10 @@ footer a:hover i{
 .sliderImage{
     height: inherit;
     width: inherit;
+}
+
+.category:hover{
+    transform: scale(1.1);
 }
 
 .accent{
