@@ -34,10 +34,14 @@
     </nav>
 
     <div class="container py-5">
-        <div class="row justify-content-center align-items-center">
+        <div class="row">
             <h1 id="productTitle" class="col-12">Alle producten</h1>
-            <input class="col-11" type="text">
-            <p class="col-1"><i class="fa-solid fa-magnifying-glass fa-xl"></i></p>
+            <div class="col-12 d-flex align-items-center mb-3">
+                <form class="col-11 d-flex" onsubmit="search_products()">
+                    <input id="searchbar" class="col-12" type="text" placeholder="Product...">
+                </form>
+                <i class="fa-solid fa-magnifying-glass fa-xl col-1 mx-2"></i>
+            </div>
 
             <div class="col-12">
                 <div id="productContainer" class="row justify-content-center">
@@ -45,19 +49,23 @@
                         <img src="images/category_placeholder.jpg" alt="category">
                     </div>
     
-                    <div class="col-md-6 col-xl-4 my-2 category transition" onclick="product_categories()">
+                    <div class="col-md-6 col-xl-4 my-2 category transition" onclick="product_categories('chipsEnZoutjes')">
                         <img src="images/category_placeholder.jpg" alt="category">
                     </div>
     
-                    <div class="col-md-6 col-xl-4 my-2 category transition" onclick="product_categories()">
+                    <div class="col-md-6 col-xl-4 my-2 category transition" onclick="product_categories('koek')">
                         <img src="images/category_placeholder.jpg" alt="category">
                     </div>
     
-                    <div class="col-md-6 col-xl-4 my-2 category transition" onclick="product_categories()">
+                    <div class="col-md-6 col-xl-4 my-2 category transition" onclick="product_categories('chocolade')">
                         <img src="images/category_placeholder.jpg" alt="category">
                     </div>
     
-                    <div class="col-md-6 col-xl-4 my-2 category transition" onclick="product_categories()">
+                    <div class="col-md-6 col-xl-4 my-2 category transition" onclick="product_categories('baru poeders')">
+                        <img src="images/category_placeholder.jpg" alt="category">
+                    </div>
+
+                    <div class="col-md-6 col-xl-4 my-2 category transition" onclick="product_categories('pasta')">
                         <img src="images/category_placeholder.jpg" alt="category">
                     </div>
                 </div>

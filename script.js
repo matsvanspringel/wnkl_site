@@ -68,23 +68,48 @@ function product_categories(category){
             var productVerkoopprijs = product['verkoopprijs'];
             var productDescription = product['description'];
             var productImage = product['image'];
+            let counter = 0;
 
             //create elements
             var div = document.createElement('div');
             var img = document.createElement('img');
             var h3 = document.createElement('h3');
             var p = document.createElement('p');
+            var addWrap = document.createElement('div');
+            var minus = document.createElement('i');
+            var counterP = document.createElement('p');
+            var plus = document.createElement('i');
 
             //fill in elements
             img.src = productImage;
             img.alt = productName;
             h3.innerHTML = productName + " - €" + productVerkoopprijs;
             p.innerHTML = productDescription;
+            counterP.innerHTML = counter;
+            minus.classList.add('fa-solid', 'fa-circle-minus', 'fa-xl', 'col-4');
+            plus.classList.add('fa-solid', 'fa-circle-plus', 'fa-xl', 'col-4');
+            counterP.classList.add('col-4')
+            addWrap.classList.add('row', 'align-items-center', 'pb-2');
+
+            plus.onclick = () => {
+                counter++;
+                counterP.innerHTML = counter;
+            };
+        
+            minus.onclick = () => {
+                if (counter > 0) {
+                    counter--;
+                    counterP.innerHTML = counter;
+                }
+            };
+
+            addWrap.append(minus, counterP, plus);
 
             //add everything to div
             div.append(img);
             div.append(h3);
             div.append(p);
+            div.append(addWrap);
 
             div.classList.add('product','col-md-3', 'm-md-3', 'pb-2');
 
@@ -168,15 +193,13 @@ function search_products(){
                 searched = false;
             }
 
-            console.log(element['naam'] + " - " + search_input)
-
             if(element['naam'].toLowerCase().includes(search_input) && search_input != ""){
                 search_results.push(element);
             }
         });
 
         if(!searched){
-            product_categories('spotlight');
+            console.log("not")
         }
         else{
             if(search_results.length != 0){
@@ -188,25 +211,40 @@ function search_products(){
                     var productVerkoopprijs = product['verkoopprijs'];
                     var productDescription = product['description'];
                     var productImage = product['image'];
+                    var counter = 0
         
                     //create elements
                     var div = document.createElement('div');
                     var img = document.createElement('img');
                     var h3 = document.createElement('h3');
                     var p = document.createElement('p');
+                    var addWrap = document.createElement('div');
+                    var minus = document.createElement('i');
+                    var counterP = document.createElement('p');
+                    var plus = document.createElement('i');
         
                     //fill in elements
                     img.src = productImage;
                     img.alt = productName;
                     h3.innerHTML = productName + " - €" + productVerkoopprijs;
                     p.innerHTML = productDescription;
+                    counterP.innerHTML = counter;
+                    minus.classList.add('fa-solid', 'fa-circle-minus', 'fa-xl', 'col-4');
+                    plus.classList.add('fa-solid', 'fa-circle-plus', 'fa-xl', 'col-4');
+                    counterP.classList.add('col-4')
+                    addWrap.classList.add('row', 'align-items-center', 'pb-2')
+                    addWrap.append(minus, counterP, plus);
         
                     //add everything to div
                     div.append(img);
                     div.append(h3);
                     div.append(p);
+                    div.append(addWrap);
         
-                    div.classList.add('product')
+                    div.classList.add('product','col-md-3', 'm-md-3');
+
+                    plus.onclick = counter++;
+                    minus.onclick = counter--;
         
                     //append div to productscontainer
                     container.append(div);

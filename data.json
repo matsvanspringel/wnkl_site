@@ -255,9 +255,7 @@
                 "verkopprijs": "4.75",
                 "description": "Mafaldine pasta",
                 "image": "images/products/pasta/dinonnamafaldine.jpg"
-            }            
-        },
-        "pastasauzen": {
+            },
             "Di Nonna Pippina - sugo alla putanesca 300 gram": {
                 "naam": "Di Nonna Pippina - sugo alla putanesca 300 gram",
                 "verkoopprijs": "3.95",
@@ -281,7 +279,7 @@
                 "verkoopprijs":"3.95",
                 "description": "Sugo pomodoro al basilico",
                 "image": "images/products/pastaSauzen/dinonnabasilico.jpg"
-            }
+            }           
         },
         "pesto": {
             "Delicious Food and Gourmet - groene pesto 156 ml": {
