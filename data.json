@@ -1,5 +1,5 @@
 {
-    "pouchbag":{
+    "water":{
             "Pineut - Pouchbag watertwist aardbei hibiscus 35 gram": {
                 "naam": "Pineut - Pouchbag watertwist aardbei hibiscus 35 gram",
                 "verkoopprijs": "6.15",
@@ -25,7 +25,7 @@
                 "image": "images/products/watersmaken/watertwist_cranberry_kers_rozemarijn.jpg"
             }
         },
-        "chipsEnZoutjes":{
+        "chocolade chips":{
             "Hoeksche - chips met paprika 150 gram":{
                 "naam": "Hoeksche - chips met paprika 150 gram",
                 "verkoopprijs": "2.75",
@@ -61,9 +61,45 @@
                 "verkoopprijs": "2.60",
                 "description": "/",
                 "image": "images/products/chipsEnZoutjes/laurierizeezout.jpg"
+            },
+            "The Finest in Chocolate - bakje musketflik 175 gram": {
+                "naam": "The Finest in Chocolate",
+                "verkoopprijs": "5.20",
+                "description": "Luxe assortiment chocolade musketflikken in bakje.",
+                "image": "images/products/chocolade/chocolatemusket.jpg"
+            },
+            "The Finest in Chocolate - bakje plaatjes caramel zeezout 175 gram": {
+                "naam": "The Finest in Chocolate - bakje plaatjes caramel zeezout 175 gram",
+                "verkoopprijs": "5.50",
+                "description": "Heerlijk knapperige chocolade plaatjes met gezouten karamelfudge blokjes.",
+                "image": "images/products/chocolade/chocolatecaramelzeezout.jpg"
+            },
+            "The Finest in Chocolate - breekchocolade melk met cranberry 175 gram": {
+                "naam": "The Finest in Chocolate - breekchocolade melk met cranberry 175 gram",
+                "verkoopprijs": "4.75",
+                "description": "Heerlijke stukken melkchocolade om zelf in kleine stukjes te breken of in grote stukken te houden. De cranberry zorgt voor een bijzondere twist en geeft een lekkere bite. Echt genieten dus!",
+                "image": "images/products/chocolade/breekchocoladecranberry.jpg"
+            },
+            "The Finest in Chocolate - breekchocolade melk met studentenhaver 150 gram": {
+                "naam": "The Finest in Chocolate - breekchocolade melk met studentenhaver 150 gram",
+                "verkoopprijs": "4.75",
+                "description": "Heerlijke stukken melkchocolade om zelf in kleine stukjes te breken of in grote stukken te houden. De studentenhaver maakt de chocolade helemaal af en zorgt voor een lekkere bite. Echt genieten dus!",
+                "image": "images/products/chocolade/breekchocoladehaver.jpg"
+            },
+            "The Finest in Chocolate - breekchocolade wit parelsuiker aardbei 150 gram": {
+                "naam": "The Finest in Chocolate - breekchocolade wit parelsuiker aardbei 150 gram",
+                "verkoopprijs": "4.75",
+                "description": "Heerlijke stukken witte chocolade om zelf in kleine stukjes te breken of in grote stukken te houden. De aardbeien parelsuiker ziet er niet alleen prachtig uit maar geeft ook een knapperige bite aan de chocolade. Echt genieten dus!",
+                "image": "images/products/chocolade/breekchocoladeparelsuiker.jpg"
+            },
+            "Verduijn's Fine Biscuits - cacao wafel 75 gram": {
+                "naam": "Verduijn's Fine Biscuits - cacao wafel 75 gram",
+                "verkoopprijs": "2.75",
+                "description": "Donkerbruine wafel met cacaopoeder en boter, met een zachte crunch. Het nieuwste idee bij Verduijn's Fine Biscuits was om de populaire boterwafel te combineren met cacao. Proef zelf hoe de boter en cacao perfect samengaan bij koffie of thee, of geniet er gewoon van als een heerlijke, knapperige traktatie.",
+                "image": "images/products/chocolade/verduijncacaowafel.jpg"
             }
         },
-        "koek":{
+        "koeken":{
             "Filo Snaps - Cacao hazelnoot 50 gram":{
                 "naam": "Filo Snaps - Cacao hazelnoot 50 gram",
                 "verkooprijs": "3.25",
@@ -119,63 +155,7 @@
                 "image": "images/products/koek/verduijnkletskoppen.jpg"
             }
         },
-        "chocolade": {
-            "The Finest in Chocolate - bakje musketflik 175 gram": {
-                "naam": "The Finest in Chocolate",
-                "verkoopprijs": "5.20",
-                "description": "Luxe assortiment chocolade musketflikken in bakje.",
-                "image": "images/products/chocolade/chocolatemusket.jpg"
-            },
-            "The Finest in Chocolate - bakje plaatjes caramel zeezout 175 gram": {
-                "naam": "The Finest in Chocolate - bakje plaatjes caramel zeezout 175 gram",
-                "verkoopprijs": "5.50",
-                "description": "Heerlijk knapperige chocolade plaatjes met gezouten karamelfudge blokjes.",
-                "image": "images/products/chocolade/chocolatecaramelzeezout.jpg"
-            },
-            "The Finest in Chocolate - breekchocolade melk met cranberry 175 gram": {
-                "naam": "The Finest in Chocolate - breekchocolade melk met cranberry 175 gram",
-                "verkoopprijs": "4.75",
-                "description": "Heerlijke stukken melkchocolade om zelf in kleine stukjes te breken of in grote stukken te houden. De cranberry zorgt voor een bijzondere twist en geeft een lekkere bite. Echt genieten dus!",
-                "image": "images/products/chocolade/breekchocoladecranberry.jpg"
-            },
-            "The Finest in Chocolate - breekchocolade melk met studentenhaver 150 gram": {
-                "naam": "The Finest in Chocolate - breekchocolade melk met studentenhaver 150 gram",
-                "verkoopprijs": "4.75",
-                "description": "Heerlijke stukken melkchocolade om zelf in kleine stukjes te breken of in grote stukken te houden. De studentenhaver maakt de chocolade helemaal af en zorgt voor een lekkere bite. Echt genieten dus!",
-                "image": "images/products/chocolade/breekchocoladehaver.jpg"
-            },
-            "The Finest in Chocolate - breekchocolade wit parelsuiker aardbei 150 gram": {
-                "naam": "The Finest in Chocolate - breekchocolade wit parelsuiker aardbei 150 gram",
-                "verkoopprijs": "4.75",
-                "description": "Heerlijke stukken witte chocolade om zelf in kleine stukjes te breken of in grote stukken te houden. De aardbeien parelsuiker ziet er niet alleen prachtig uit maar geeft ook een knapperige bite aan de chocolade. Echt genieten dus!",
-                "image": "images/products/chocolade/breekchocoladeparelsuiker.jpg"
-            },
-            "Barú - marshmallow bar chai latte 30 gram":{
-                "naam": "Barú - marshmallow bar chai latte 30 gram",
-                "verkoopprijs": "1.55",
-                "description": "Marshmallowbar met melkchocolade en de kruidige smaak van chai latte. Verpakt per 18 bars in een mooie display!",
-                "image": "images/products/chocolade/baruchailatte.png"
-            },
-            "Barú - marshmallow bar crunchy hazelnut 30 gram": {
-                "naam": "Barú - marshmallow bar chai latte 30 gram",
-                "verkoopprijs": "1.55",
-                "description": "Marshmallowbar met pure chocolade en crunchy cashew crisp. Verpakt per 18 bars in een mooie display!",
-                "image": "images/products/chocolade/barucrunchyhazelnoot.jpg"
-            },
-            "Barú - marshmallow bar sea salt caramel 30 gram": {
-                "naam": "Barú - marshmallow bar sea salt caramel 30 gram",
-                "verkoopprijs": "1.55",
-                "description": "Marshmallow bar met pure chocolade, zeezout en caramel. Een heerljke combinatie tussen zout en zoet, verpakt per 18 bars in een mooi display!",
-                "image": "images/products/chocolade/baruzeezoutcaramel.jpg"
-            },
-            "Verduijn's Fine Biscuits - cacao wafel 75 gram": {
-                "naam": "Verduijn's Fine Biscuits - cacao wafel 75 gram",
-                "verkoopprijs": "2.75",
-                "description": "Donkerbruine wafel met cacaopoeder en boter, met een zachte crunch. Het nieuwste idee bij Verduijn's Fine Biscuits was om de populaire boterwafel te combineren met cacao. Proef zelf hoe de boter en cacao perfect samengaan bij koffie of thee, of geniet er gewoon van als een heerlijke, knapperige traktatie.",
-                "image": "images/products/chocolade/verduijncacaowafel.jpg"
-            }
-        },
-        "baru poeders": {
+        "baru": {
             "Baru - white chocolate latte 250 gram": {
                 "naam": "Baru - white chocolate latte 250 gram",
                 "verkoopprijs": "6.95",
@@ -223,9 +203,27 @@
                 "verkoopprijs": "6.95",
                 "description": "Van deze Vanilla Chai Latte zal je zeker kunnen genieten. Deze vegan chai latte is gemaakt met zwarte thee en specerijen. Voeg hier opgeschuimde (plantaardige) warme melk aan toe en zorg voor een heerlijk genietmoment voor jezelf of samen met vrienden. Probeer ook eens een Iced (Vanilla) Chai Latte of een Dirty Iced Chai.",
                 "image": "images/products/baruPoeders/baruvanillechai.png"
+            },
+            "Barú - marshmallow bar chai latte 30 gram":{
+                "naam": "Barú - marshmallow bar chai latte 30 gram",
+                "verkoopprijs": "1.55",
+                "description": "Marshmallowbar met melkchocolade en de kruidige smaak van chai latte. Verpakt per 18 bars in een mooie display!",
+                "image": "images/products/chocolade/baruchailatte.png"
+            },
+            "Barú - marshmallow bar crunchy hazelnut 30 gram": {
+                "naam": "Barú - marshmallow bar chai latte 30 gram",
+                "verkoopprijs": "1.55",
+                "description": "Marshmallowbar met pure chocolade en crunchy cashew crisp. Verpakt per 18 bars in een mooie display!",
+                "image": "images/products/chocolade/barucrunchyhazelnoot.jpg"
+            },
+            "Barú - marshmallow bar sea salt caramel 30 gram": {
+                "naam": "Barú - marshmallow bar sea salt caramel 30 gram",
+                "verkoopprijs": "1.55",
+                "description": "Marshmallow bar met pure chocolade, zeezout en caramel. Een heerljke combinatie tussen zout en zoet, verpakt per 18 bars in een mooi display!",
+                "image": "images/products/chocolade/baruzeezoutcaramel.jpg"
             }
         },
-        "pasta": {
+        "italiaans": {
             "Di Nonna Pippina - bucatini 500 gram": {
                 "naam": "Di Nonna Pippina - bucatini 500 gram",
                 "verkoopprijs": "4.75",
@@ -279,9 +277,7 @@
                 "verkoopprijs":"3.95",
                 "description": "Sugo pomodoro al basilico",
                 "image": "images/products/pastaSauzen/dinonnabasilico.jpg"
-            }           
-        },
-        "pesto": {
+            },
             "Delicious Food and Gourmet - groene pesto 156 ml": {
                 "naam": "Delicious Food and Gourmet - groene pesto 156 ml",
                 "verkoopprijs": "3.75",
@@ -293,9 +289,7 @@
                 "verkoopprijs": "3.75",
                 "description": "Rode pesto met tomaten en basilicum. Pesto is een authentiek Italiaans mengsel van cashewnoten en basilicum, deze versie is rood van kleur door de toevoeging van sappige tomaatjes. Verder zit er ook natuurlijk heerlijke Parmezaanse kaas en olijfolie in voor de smaak. Verras je familie of vrienden een keer met een rode pasta pesto!",
                 "image": "images/products/pesto/pesto_rosso.jpg"
-            }
-        },
-        "tapenade": {
+            },
             "Delicious Food and Gourmet - tapenade bruschetta 156 ml": {
                 "naam": "Delicious Food and Gourmet - tapenade bruschetta 156 ml",
                 "verkoopprijs": "3.00",
@@ -319,9 +313,7 @@
                 "verkoopprijs": "3.00",
                 "description": "Grove tapenade met ambachtelijke oude kaas. Een eigentijdse mix van de Italiaanse en Nederlandse keuken. Deze tapenade heeft een krachtige en onweerstaanbare smaak door de mix van zout en zoet. Al helemaal lekker op geroosterd stokbrood!",
                 "image": "images/products/tapenade/tapenadeformaggio.jpg"
-            }
-        },
-        "hummus": {
+            },
             "Delicious Food and Gourmet - hummus curry 130 gram": {
                 "naam": "Delicious Food and Gourmet - hummus curry 130 gram",
                 "verkoopprijs": "3.00",
@@ -339,35 +331,9 @@
                 "verkoopprijs": "3.00",
                 "description": "Hummus zongedroogde tomaat op basis van kikkererwten en zongedroogde tomaat. Erg lekker voor bij de borrel in combinatie met toastjes, of met groenten!",
                 "image": "images/products/hummus/hummustomaat.jpg"
-            }
+            }         
         },
-        "spotlight": {
-            "Barú - fluffy marshmallow chocolate powder 250 gram": {
-                "naam": "Baru - fluffy marshmallow chocolate powder 250 gram",
-                "verkoopprijs": "6.95",
-                "description": "Dit poeder bevat fluffy marshmallows voor een extra fluffy chocolademelk. Om te delen met de hele familie (of niet!). Simpelweg warme melk, soja of amandelmelk toevoegen en genieten! Leuk samen met de Barú Blue Mug.",
-                "image": "images/products/baruPoeders/barumarshmallowchocolate.jpg"
-            },
-            "The Finest in Chocolate - breekchocolade melk met cranberry 175 gram": {
-                "naam": "The Finest in Chocolate - breekchocolade melk met cranberry 175 gram",
-                "verkoopprijs": "4.75",
-                "description": "Heerlijke stukken melkchocolade om zelf in kleine stukjes te breken of in grote stukken te houden. De cranberry zorgt voor een bijzondere twist en geeft een lekkere bite. Echt genieten dus!",
-                "image": "images/products/chocolade/breekchocoladecranberry.jpg"
-            },
-            "Hoeksche - chips met zeezout 150 gram":{
-                "naam": "Hoeksche - chips met zeezout 150 gram",
-                "verkoopprijs": "2.75",
-                "description": "Ambachtelijk bereide chips, gebakken in zuivere zonnebloemolie uit de Hoeksche Waard met zeezout. De aardappels die gebruikt worden om Hoeksche Chips van te maken worden gebakken in de schil en bevatten geen kunstmatige kleur- geur- of smaakstoffen of transvetten.",
-                "image": "images/products/chipsEnZoutjes/zeezoutchips.jpg"
-            },
-            "Di Nonna Pippina - sugo campagnola di pomodoro 300 gram": {
-                "naam": "Di Nonna Pippina - sugo campagnola di pomodoro 300 gram",
-                "verkoopprijs": "3.95",
-                "description": "Sugo campagnola di pomodoro",
-                "image": "images/products/pastaSauzen/dinonnapomodoro.jpg"
-            }
-        },
-        "handzeep": {
+        "geuren": {
             "Handzeep parfum o.b.v. kokos- en olijfolie 400ml": {
                 "naam": "Handzeep parfum o.b.v. kokos- en olijfolie 400ml",
                 "verkoopprijs": "8.95",
@@ -403,9 +369,7 @@
                 "verkoopprijs": "7.95",
                 "description": "/",
                 "image": "images/products/handzeep/parfumAmberKokos.jpg"
-            }
-        },
-        "roomspray": {
+            },
             "Roomspray Aloe Vera 250ML": {
                 "naam": "Roomspray Aloe Vera 250ML",
                 "verkoopprijs": "10.00",
@@ -417,9 +381,7 @@
                 "verkoopprijs": "10.00",
                 "description": "/",
                 "image": "images/products/handzeep/roomsprayVijg.jpg"
-            }
-        },
-        "geurstokje": {
+            },
             "Geurstokjes parfum Lotus Jasmijn": {
                 "naam": "Geurstokjes parfum Lotus Jasmijn",
                 "verkoopprijs": "7.95",
@@ -443,9 +405,7 @@
                 "verkoopprijs": "7.95",
                 "description": "/",
                 "image": "images/products/geurstokjes/amber.jpg"
-            }
-        },
-        "geur-hart": {
+            },
             "Hart 55 gram Argille groen, basilicum, parfum citroen basilicum": {
                 "naam": "Hart 55 gram Argille groen, basilicum, parfum citroen basilicum",
                 "verkoopprijs": "3.50",
@@ -501,7 +461,7 @@
                 "image": "images/products/geurhart/linnen.png"
             }
         },
-        "ansichtkaart": {
+        "papierwaren":{
             "Ansichtkaart Go for it": {
                 "naam": "Ansichtkaart Go for it",
                 "verkoopprijs": "0.95",
@@ -591,9 +551,125 @@
                 "verkoopprijs": "0.95",
                 "description": "/",
                 "image": "images/products/ansichtkaart/bloemen.png"
+            },
+            "Bladwijzer met quote: 'De herfst leert ons hoe mooi loslaten is'": {
+                "naam": "Bladwijzer met quote: 'De herfst leert ons hoe mooi loslaten is'",
+                "verkoopprijs": "3.50",
+                "description": "/",
+                "image": "images/products/planner/bladwijzerHerfst.jpg"
+            },
+            "Bladwijzer met quote: 'Nothing grows without a little rain' in Sunny Petals print": {
+                "naam": "Bladwijzer met quote: 'Nothing grows without a little rain' in Sunny Petals print",
+                "verkoopprijs": "3.50",
+                "description": "/",
+                "image": "images/products/planner/bladwijzerRain.jpg"
+            },
+            "Bladwijzer met quote: 'Keep Growing until you Bloom' in Midnight Garden print": {
+                "naam": "Bladwijzer met quote: 'Keep Growing until you Bloom' in Midnight Garden print",
+                "verkoopprijs": "3.50",
+                "description": "/",
+                "image": "images/products/planner/bladwijzerGrowing.jpg"
+            },
+            "De ultieme Maaltijdplanner in Midnight Garden print": {
+                "naam": "De ultieme Maaltijdplanner in Midnight Garden print",
+                "verkoopprijs": "26.95",
+                "description": "/",
+                "image": "images/products/planner/maaltijdplannerMidnight.jpg"
+            },
+            "De ultieme Maaltijdplanner in Sunny Petals Print": {
+                "naam": "De ultieme Maaltijdplanner in Sunny Petals Print",
+                "verkoopprijs": "26.95",
+                "description": "/",
+                "image": "images/products/planner/maaltijdplannerSunny.jpg"
+            },
+            "Weekplanner A4 in Sunny Petals print verlijmd": {
+                "naam": "Weekplanner A4 in Sunny Petals print verlijmd",
+                "verkoopprijs": "12.95",
+                "description": "/",
+                "image": "images/products/planner/weekplannerSunnyLijm.jpg"
+            },
+            "Weekplanner A4 in Sunny Petals print ingebonden": {
+                "naam": "Weekplanner A4 in Sunny Petals print ingebonden",
+                "verkoopprijs": "12.95",
+                "description": "/",
+                "image": "images/products/planner/weekplannerSunnyGebonden.jpg"
+            },
+            "Weekplanner A4 in Midnight Garden print verlijmd": {
+                "naam": "Weekplanner A4 in Midnight Garden print verlijmd",
+                "verkoopprijs": "12.95",
+                "description": "/",
+                "image": "images/products/planner/weekplannerMidnightLijm.jpg"
+            },
+            "Weekplanner A4 in Midnight Garden print ingebonden": {
+                "naam": "Weekplanner A4 in Midnight Garden print ingebonden",
+                "verkoopprijs": "12.95",
+                "description": "/",
+                "image": "images/products/planner/weekplannerMidnightGebonden.jpg"
+            },
+            "To-do lijstje in Sunny Petals print": {
+                "naam": "To-do lijstje in Sunny Petals print",
+                "verkoopprijs": "6.95",
+                "description": "/",
+                "image": "images/products/planner/todoSunny.jpg"
+            },
+            "To-do lijstje in Midnight Garden print": {
+                "naam": "To-do lijstje in Midnight Garden print",
+                "verkoopprijs": "6.95",
+                "description": "/",
+                "image": "images/products/planner/todoMidnight.jpg"
+            },
+            "Notitieblok A5 'Happy Notes' in Sunny Petals print": {
+                "naam": "Notitieblok A5 'Happy Notes' in Sunny Petals print",
+                "verkoopprijs": "6.95",
+                "description": "/",
+                "image": "images/products/planner/notitieSunny.jpg"
+            },
+            "Notitieblok A5 'Happy Notes' in Midnight Garden print": {
+                "naam": "Notitieblok A5 'Happy Notes' in Midnight Garden print",
+                "verkoopprijs": "6.95",
+                "description": "/",
+                "image": "images/products/planner/notitieMidnight.jpg"
+            },
+            "Memoblokje zelfklevend in Sunny Petals print": {
+                "naam": "Memoblokje zelfklevend in Sunny Petals print",
+                "verkoopprijs": "5.95",
+                "description": "/",
+                "image": "images/products/planner/memoSunny.jpg"
+            },
+            "Memoblokje zelfklevend in Midnight Garden print": {
+                "naam": "Memoblokje zelfklevend in Midnight Garden print",
+                "verkoopprijs": "5.95",
+                "description": "/",
+                "image": "images/products/planner/memoMidnight.jpg"
             }
         },
-        "servet": {
+        "spotlight": {
+            "Barú - fluffy marshmallow chocolate powder 250 gram": {
+                "naam": "Baru - fluffy marshmallow chocolate powder 250 gram",
+                "verkoopprijs": "6.95",
+                "description": "Dit poeder bevat fluffy marshmallows voor een extra fluffy chocolademelk. Om te delen met de hele familie (of niet!). Simpelweg warme melk, soja of amandelmelk toevoegen en genieten! Leuk samen met de Barú Blue Mug.",
+                "image": "images/products/baruPoeders/barumarshmallowchocolate.jpg"
+            },
+            "The Finest in Chocolate - breekchocolade melk met cranberry 175 gram": {
+                "naam": "The Finest in Chocolate - breekchocolade melk met cranberry 175 gram",
+                "verkoopprijs": "4.75",
+                "description": "Heerlijke stukken melkchocolade om zelf in kleine stukjes te breken of in grote stukken te houden. De cranberry zorgt voor een bijzondere twist en geeft een lekkere bite. Echt genieten dus!",
+                "image": "images/products/chocolade/breekchocoladecranberry.jpg"
+            },
+            "Hoeksche - chips met zeezout 150 gram":{
+                "naam": "Hoeksche - chips met zeezout 150 gram",
+                "verkoopprijs": "2.75",
+                "description": "Ambachtelijk bereide chips, gebakken in zuivere zonnebloemolie uit de Hoeksche Waard met zeezout. De aardappels die gebruikt worden om Hoeksche Chips van te maken worden gebakken in de schil en bevatten geen kunstmatige kleur- geur- of smaakstoffen of transvetten.",
+                "image": "images/products/chipsEnZoutjes/zeezoutchips.jpg"
+            },
+            "Di Nonna Pippina - sugo campagnola di pomodoro 300 gram": {
+                "naam": "Di Nonna Pippina - sugo campagnola di pomodoro 300 gram",
+                "verkoopprijs": "3.95",
+                "description": "Sugo campagnola di pomodoro",
+                "image": "images/products/pastaSauzen/dinonnapomodoro.jpg"
+            }
+        },
+        "accessoires": {
             "Servet kerstboom goud": {
                 "naam": "Servet kerstboom goud",
                 "verkoopprijs": "3.50",
@@ -641,119 +717,13 @@
                 "verkoopprijs": "3.50",
                 "description": "/",
                 "image": "images/products/servet/wildeBloemen.jpg"
-            }
-        },
-        "bladwijzer":{
-            "Bladwijzer met quote: 'De herfst leert ons hoe mooi loslaten is'": {
-                "naam": "Bladwijzer met quote: 'De herfst leert ons hoe mooi loslaten is'",
-                "verkoopprijs": "3.50",
-                "description": "/",
-                "image": "images/products/planner/bladwijzerHerfst.jpg"
             },
-            "Bladwijzer met quote: 'Nothing grows without a little rain' in Sunny Petals print": {
-                "naam": "Bladwijzer met quote: 'Nothing grows without a little rain' in Sunny Petals print",
-                "verkoopprijs": "3.50",
-                "description": "/",
-                "image": "images/products/planner/bladwijzerRain.jpg"
-            },
-            "Bladwijzer met quote: 'Keep Growing until you Bloom' in Midnight Garden print": {
-                "naam": "Bladwijzer met quote: 'Keep Growing until you Bloom' in Midnight Garden print",
-                "verkoopprijs": "3.50",
-                "description": "/",
-                "image": "images/products/planner/bladwijzerGrowing.jpg"
-            }
-        },
-        "maaltijdplanner": {
-            "De ultieme Maaltijdplanner in Midnight Garden print": {
-                "naam": "De ultieme Maaltijdplanner in Midnight Garden print",
-                "verkoopprijs": "26.95",
-                "description": "/",
-                "image": "images/products/planner/maaltijdplannerMidnight.jpg"
-            },
-            "De ultieme Maaltijdplanner in Sunny Petals Print": {
-                "naam": "De ultieme Maaltijdplanner in Sunny Petals Print",
-                "verkoopprijs": "26.95",
-                "description": "/",
-                "image": "images/products/planner/maaltijdplannerSunny.jpg"
-            }
-        },
-        "weekplanner": {
-            "Weekplanner A4 in Sunny Petals print verlijmd": {
-                "naam": "Weekplanner A4 in Sunny Petals print verlijmd",
-                "verkoopprijs": "12.95",
-                "description": "/",
-                "image": "images/products/planner/weekplannerSunnyLijm.jpg"
-            },
-            "Weekplanner A4 in Sunny Petals print ingebonden": {
-                "naam": "Weekplanner A4 in Sunny Petals print ingebonden",
-                "verkoopprijs": "12.95",
-                "description": "/",
-                "image": "images/products/planner/weekplannerSunnyGebonden.jpg"
-            },
-            "Weekplanner A4 in Midnight Garden print verlijmd": {
-                "naam": "Weekplanner A4 in Midnight Garden print verlijmd",
-                "verkoopprijs": "12.95",
-                "description": "/",
-                "image": "images/products/planner/weekplannerMidnightLijm.jpg"
-            },
-            "Weekplanner A4 in Midnight Garden print ingebonden": {
-                "naam": "Weekplanner A4 in Midnight Garden print ingebonden",
-                "verkoopprijs": "12.95",
-                "description": "/",
-                "image": "images/products/planner/weekplannerMidnightGebonden.jpg"
-            }
-        },
-        "to-do": {
-            "To-do lijstje in Sunny Petals print": {
-                "naam": "To-do lijstje in Sunny Petals print",
-                "verkoopprijs": "6.95",
-                "description": "/",
-                "image": "images/products/planner/todoSunny.jpg"
-            },
-            "To-do lijstje in Midnight Garden print": {
-                "naam": "To-do lijstje in Midnight Garden print",
-                "verkoopprijs": "6.95",
-                "description": "/",
-                "image": "images/products/planner/todoMidnight.jpg"
-            }
-        },
-        "notitieblok": {
-            "Notitieblok A5 'Happy Notes' in Sunny Petals print": {
-                "naam": "Notitieblok A5 'Happy Notes' in Sunny Petals print",
-                "verkoopprijs": "6.95",
-                "description": "/",
-                "image": "images/products/planner/notitieSunny.jpg"
-            },
-            "Notitieblok A5 'Happy Notes' in Midnight Garden print": {
-                "naam": "Notitieblok A5 'Happy Notes' in Midnight Garden print",
-                "verkoopprijs": "6.95",
-                "description": "/",
-                "image": "images/products/planner/notitieMidnight.jpg"
-            }
-        },
-        "memoblok": {
-            "Memoblokje zelfklevend in Sunny Petals print": {
-                "naam": "Memoblokje zelfklevend in Sunny Petals print",
-                "verkoopprijs": "5.95",
-                "description": "/",
-                "image": "images/products/planner/memoSunny.jpg"
-            },
-            "Memoblokje zelfklevend in Midnight Garden print": {
-                "naam": "Memoblokje zelfklevend in Midnight Garden print",
-                "verkoopprijs": "5.95",
-                "description": "/",
-                "image": "images/products/planner/memoMidnight.jpg"
-            }
-        },
-        "armband" :{
             "Verschillende handgemaakte armbandjes": {
                 "naam": "Verschillende handgemaakte armbandjes",
                 "verkoopprijs": "12.50",
                 "description": "/",
                 "image": "images/products/planner/armband.jpg"
-            }
-        },
-        "sjaal" :{
+            },
             "Verschillende handgemaakte sjaals": {
                 "naam": "Verschillende handgemaakte sjaals",
                 "verkoopprijs": "10.00",

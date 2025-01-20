@@ -32,6 +32,10 @@ h1, h2, h3{
     font-style: normal;
 }
 
+h3{
+    color: black;
+}
+
 img{
     max-width: 100%;
     height: auto;

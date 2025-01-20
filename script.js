@@ -1,30 +1,7 @@
 var visibility = false;
 var droppeddown = false;
-var categories = ['pouchbag', 'chipsEnZoutjes', 'koek', 'chocolade', 'baru poeders', 'pasta', 'pastasauzen', 'pesto', 'tapenade', 'hummus', 'handzeep', 'roomspray', 'geurstokje', 'geur-hart', 'ansichtkaart', 'servet', 'bladwijzer', 'maaltijdplanner', 'weekplanner', 'to-do', 'notitieblok', 'memoblok', 'armband', 'sjaal'];
+var categories = ['water', 'chocolade chips', 'koeken', 'baru', 'italiaans', 'geuren', 'papierwaren', 'accessoires'];
 var slideNumber = 0;
-
-function change_visibility(change){
-    if(visibility){
-        document.getElementById('productWrap').style.visibility = 'hidden'
-        document.getElementById('dropdownArrow').style.rotate = "0deg";
-        visibility = false
-
-        show_handelaar('');
-    }
-    else{
-        document.getElementById('productWrap').style.visibility = 'visible'
-        document.getElementById('dropdownArrow').style.rotate = "180deg";
-        visibility = true
-    }
-
-    if(change == "body"){
-        document.getElementById('productWrap').style.visibility = 'hidden'
-        document.getElementById('dropdownArrow').style.rotate = "0deg";
-        visibility = false;
-
-        show_handelaar('');
-    }
-}
 
 function image_slide(number){
     slideNumber += number;
@@ -111,16 +88,12 @@ function product_categories(category){
             div.append(p);
             div.append(addWrap);
 
-            div.classList.add('product','col-md-3', 'm-md-3', 'pb-2');
+            div.classList.add('product','col-md-3', 'm-3', 'pb-2');
 
             //append div to productscontainer
             container.append(div);
         }
     });
-
-    if(category != "spotlight"){
-        change_visibility('');
-    }
 }
 
 function get_spotlights(category){
@@ -157,7 +130,7 @@ function get_spotlights(category){
             div.append(h3);
             div.append(p);
 
-            div.classList.add('product','col-md-3', 'm-md-3', 'pb-2')
+            div.classList.add('product','col-md-3', 'm-3', 'pb-2')
 
             //append div to productscontainer
             container.append(div);
@@ -192,14 +165,13 @@ function search_products(){
             if(search_input == ""){
                 searched = false;
             }
-
-            if(element['naam'].toLowerCase().includes(search_input) && search_input != ""){
+            else if(element['naam'].toLowerCase().includes(search_input) && search_input != ""){
                 search_results.push(element);
             }
         });
 
         if(!searched){
-            console.log("not")
+            get_categories();
         }
         else{
             if(search_results.length != 0){
@@ -241,7 +213,7 @@ function search_products(){
                     div.append(p);
                     div.append(addWrap);
         
-                    div.classList.add('product','col-md-3', 'm-md-3');
+                    div.classList.add('product','col-md-3', 'm-3');
 
                     plus.onclick = counter++;
                     minus.onclick = counter--;
@@ -258,5 +230,25 @@ function search_products(){
                 container.append(p);
             }
         }
+    });
+}
+
+function get_categories(){
+    productcontainer = document.getElementById('productContainer');
+    productContainer.innerHTML = "";
+
+    categories.forEach(category => {
+        div = document.createElement('div');
+        img = document.createElement('img');
+
+        div.classList.add('col-md-6', 'col-xl-4', 'my-2', 'category', 'transition');
+        img.src = 'images/categories/' + category +".jpg";
+        img.alt = category;
+        img.onclick = () => {
+            product_categories(category)
+        }
+
+        div.append(img);
+        productContainer.append(div);
     });
 }
