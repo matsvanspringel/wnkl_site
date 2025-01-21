@@ -65,11 +65,18 @@ function product_categories(category){
                 img.alt = productName;
                 h3.innerHTML = productName + " - €" + productVerkoopprijs;
                 p.innerHTML = productDescription;
-                counterP.innerHTML = counter; // Start counter at 0
+                counterP.innerHTML = counter;
+
+                p.classList.add('col-12');
+                h3.classList.add('col-12');
+                img.classList.add('col-6', 'offset-3');
                 minus.classList.add('fa-solid', 'fa-circle-minus', 'fa-xl', 'col-4');
                 plus.classList.add('fa-solid', 'fa-circle-plus', 'fa-xl', 'col-4');
                 counterP.classList.add('col-4');
-                addWrap.classList.add('row', 'align-items-center', 'pb-2');
+                addWrap.classList.add('col-12', 'd-flex', 'align-items-center', 'pb-2');
+
+                addWrap.style.position = "absolute";
+                addWrap.style.bottom = 0;
         
                 // Assign unique IDs (optional but good for debugging)
                 counterP.id = "product" + index + "counter";
@@ -92,7 +99,7 @@ function product_categories(category){
                 // Append elements to the DOM
                 addWrap.append(minus, counterP, plus);
                 div.append(img, h3, p, addWrap);
-                div.classList.add('product', 'col-md-3', 'm-3', 'pb-2');
+                div.classList.add('product', 'col-md-3', 'd-flex', 'flex-wrap','m-3', 'pb-5');
                 container.append(div);
             })(i); // Use an IIFE to create a unique scope for each iteration
         }
