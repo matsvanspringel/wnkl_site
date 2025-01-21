@@ -37,62 +37,66 @@ function product_categories(category){
         var allProducts = response;
         var productsCategory = allProducts[category];
 
-        for(var i in productsCategory){
-            var product = productsCategory[i];
-
-            //declare product details
-            var productName = product['naam'];
-            var productVerkoopprijs = product['verkoopprijs'];
-            var productDescription = product['description'];
-            var productImage = product['image'];
-            let counter = 0;
-
-            //create elements
-            var div = document.createElement('div');
-            var img = document.createElement('img');
-            var h3 = document.createElement('h3');
-            var p = document.createElement('p');
-            var addWrap = document.createElement('div');
-            var minus = document.createElement('i');
-            var counterP = document.createElement('p');
-            var plus = document.createElement('i');
-
-            //fill in elements
-            img.src = productImage;
-            img.alt = productName;
-            h3.innerHTML = productName + " - €" + productVerkoopprijs;
-            p.innerHTML = productDescription;
-            counterP.innerHTML = counter;
-            minus.classList.add('fa-solid', 'fa-circle-minus', 'fa-xl', 'col-4');
-            plus.classList.add('fa-solid', 'fa-circle-plus', 'fa-xl', 'col-4');
-            counterP.classList.add('col-4')
-            addWrap.classList.add('row', 'align-items-center', 'pb-2');
-
-            plus.onclick = () => {
-                counter++;
-                counterP.innerHTML = counter;
-            };
+        for (var i in productsCategory) {
+            (function(index) {
+                var product = productsCategory[index];
         
-            minus.onclick = () => {
-                if (counter > 0) {
-                    counter--;
+                // Declare product details
+                var productName = product['naam'];
+                var productVerkoopprijs = product['verkoopprijs'];
+                var productDescription = product['description'];
+                var productImage = product['image'];
+        
+                // Create elements
+                var div = document.createElement('div');
+                var img = document.createElement('img');
+                var h3 = document.createElement('h3');
+                var p = document.createElement('p');
+                var addWrap = document.createElement('div');
+                var minus = document.createElement('i');
+                var counterP = document.createElement('p');
+                var plus = document.createElement('i');
+        
+                // Initialize product-specific counter
+                let counter = 0;
+        
+                // Fill in elements
+                img.src = productImage;
+                img.alt = productName;
+                h3.innerHTML = productName + " - €" + productVerkoopprijs;
+                p.innerHTML = productDescription;
+                counterP.innerHTML = counter; // Start counter at 0
+                minus.classList.add('fa-solid', 'fa-circle-minus', 'fa-xl', 'col-4');
+                plus.classList.add('fa-solid', 'fa-circle-plus', 'fa-xl', 'col-4');
+                counterP.classList.add('col-4');
+                addWrap.classList.add('row', 'align-items-center', 'pb-2');
+        
+                // Assign unique IDs (optional but good for debugging)
+                counterP.id = "product" + index + "counter";
+                minus.id = "product" + index + "minus";
+                plus.id = "product" + index + "plus";
+        
+                // Add event listeners
+                minus.onclick = () => {
+                    if (counter > 0) {
+                        counter--;
+                        counterP.innerHTML = counter;
+                    }
+                };
+        
+                plus.onclick = () => {
+                    counter++;
                     counterP.innerHTML = counter;
-                }
-            };
-
-            addWrap.append(minus, counterP, plus);
-
-            //add everything to div
-            div.append(img);
-            div.append(h3);
-            div.append(p);
-            div.append(addWrap);
-
-            div.classList.add('product','col-md-3', 'm-3', 'pb-2');
-
-            //append div to productscontainer
-            container.append(div);
+                };
+        
+                // Append elements to the DOM
+                addWrap.append(minus, counterP, plus);
+                div.append(img, h3, p, addWrap);
+                div.classList.add('product', 'col-md-3', 'm-3', 'pb-2');
+                container.append(div);
+            })(i); // Use an IIFE to create a unique scope for each iteration
         }
+        
     });
 }
 
