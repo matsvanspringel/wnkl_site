@@ -2,6 +2,7 @@ var visibility = false;
 var droppeddown = false;
 var categories = ['water', 'chocolade chips', 'koeken', 'baru', 'italiaans', 'geuren', 'papierwaren', 'accessoires'];
 var slideNumber = 0;
+var cart = {};
 
 function image_slide(number){
     slideNumber += number;
@@ -56,6 +57,7 @@ function product_categories(category){
                 var minus = document.createElement('i');
                 var counterP = document.createElement('p');
                 var plus = document.createElement('i');
+                var addButton = document.createElement('a');
         
                 // Initialize product-specific counter
                 let counter = 0;
@@ -66,13 +68,15 @@ function product_categories(category){
                 h3.innerHTML = productName + " - €" + productVerkoopprijs;
                 p.innerHTML = productDescription;
                 counterP.innerHTML = counter;
+                addButton.innerHTML = "Add";
 
                 p.classList.add('col-12');
                 h3.classList.add('col-12');
                 img.classList.add('col-6', 'offset-3');
-                minus.classList.add('fa-solid', 'fa-circle-minus', 'fa-xl', 'col-4');
-                plus.classList.add('fa-solid', 'fa-circle-plus', 'fa-xl', 'col-4');
-                counterP.classList.add('col-4');
+                minus.classList.add('fa-solid', 'fa-circle-minus', 'fa-xl', 'col-1');
+                plus.classList.add('fa-solid', 'fa-circle-plus', 'fa-xl', 'col-1');
+                counterP.classList.add('col-2');
+                addButton.classList.add('col-4', 'primary-button', 'offset-3', 'transition')
                 addWrap.classList.add('col-12', 'd-flex', 'align-items-center', 'pb-2');
 
                 addWrap.style.position = "absolute";
@@ -95,13 +99,28 @@ function product_categories(category){
                     counter++;
                     counterP.innerHTML = counter;
                 };
+
+                addButton.onclick = () => {
+                    productCart = {}
+                    productCart['productName'] = productName;
+                    productCart['verkoopprijs'] = productVerkoopprijs;
+                    productCart['description'] = productDescription;
+                    productCart['image'] = productImage;
+                    productCart['hoeveelheid'] = counter;
+
+                    cart[productName] = productCart;
+                    localStorage.setItem('cart', cart);
+
+                    counter = 0;
+                    counterP.innerHTML = counter;
+                    console.log(cart)
+                };
         
-                // Append elements to the DOM
-                addWrap.append(minus, counterP, plus);
+                addWrap.append(minus, counterP, plus, addButton);
                 div.append(img, h3, p, addWrap);
                 div.classList.add('product', 'col-md-3', 'd-flex', 'flex-wrap','m-3', 'pb-5');
                 container.append(div);
-            })(i); // Use an IIFE to create a unique scope for each iteration
+            })(i);
         }
         
     });
@@ -187,50 +206,63 @@ function search_products(){
         else{
             if(search_results.length != 0){
                 for(var i in search_results){
-                    var product = search_results[i];
-        
-                    //declare product details
-                    var productName = product['naam'];
-                    var productVerkoopprijs = product['verkoopprijs'];
-                    var productDescription = product['description'];
-                    var productImage = product['image'];
-                    var counter = 0
-        
-                    //create elements
-                    var div = document.createElement('div');
-                    var img = document.createElement('img');
-                    var h3 = document.createElement('h3');
-                    var p = document.createElement('p');
-                    var addWrap = document.createElement('div');
-                    var minus = document.createElement('i');
-                    var counterP = document.createElement('p');
-                    var plus = document.createElement('i');
-        
-                    //fill in elements
-                    img.src = productImage;
-                    img.alt = productName;
-                    h3.innerHTML = productName + " - €" + productVerkoopprijs;
-                    p.innerHTML = productDescription;
-                    counterP.innerHTML = counter;
-                    minus.classList.add('fa-solid', 'fa-circle-minus', 'fa-xl', 'col-4');
-                    plus.classList.add('fa-solid', 'fa-circle-plus', 'fa-xl', 'col-4');
-                    counterP.classList.add('col-4')
-                    addWrap.classList.add('row', 'align-items-center', 'pb-2')
-                    addWrap.append(minus, counterP, plus);
-        
-                    //add everything to div
-                    div.append(img);
-                    div.append(h3);
-                    div.append(p);
-                    div.append(addWrap);
-        
-                    div.classList.add('product','col-md-3', 'm-3');
+                    (function(index) {
+                        var product = search_results[i];
+            
+                        //declare product details
+                        var productName = product['naam'];
+                        var productVerkoopprijs = product['verkoopprijs'];
+                        var productDescription = product['description'];
+                        var productImage = product['image'];
+                        var counter = 0
+            
+                        //create elements
+                        var div = document.createElement('div');
+                        var img = document.createElement('img');
+                        var h3 = document.createElement('h3');
+                        var p = document.createElement('p');
+                        var addWrap = document.createElement('div');
+                        var minus = document.createElement('i');
+                        var counterP = document.createElement('p');
+                        var plus = document.createElement('i');
+                        var addButton = document.createElement('a');
+            
+                        //fill in elements
+                        img.src = productImage;
+                        img.alt = productName;
+                        h3.innerHTML = productName + " - €" + productVerkoopprijs;
+                        p.innerHTML = productDescription;
+                        counterP.innerHTML = counter;
+                        minus.classList.add('fa-solid', 'fa-circle-minus', 'fa-xl', 'col-1');
+                        plus.classList.add('fa-solid', 'fa-circle-plus', 'fa-xl', 'col-1');
+                        counterP.classList.add('col-2');
+                        addButton.classList.add('col-4', 'primary-button', 'offset-3', 'transition')
+                        addWrap.classList.add('col-12', 'd-flex', 'align-items-center', 'pb-2');
+                        addWrap.append(minus, counterP, plus, addButton);
+            
+                        //add everything to div
+                        div.append(img);
+                        div.append(h3);
+                        div.append(p);
+                        div.append(addWrap);
+            
+                        div.classList.add('product','col-md-3', 'm-3');
 
-                    plus.onclick = counter++;
-                    minus.onclick = counter--;
-        
-                    //append div to productscontainer
-                    container.append(div);
+                        minus.onclick = () => {
+                            if (counter > 0) {
+                                counter--;
+                                counterP.innerHTML = counter;
+                            }
+                        };
+                
+                        plus.onclick = () => {
+                            counter++;
+                            counterP.innerHTML = counter;
+                        };
+            
+                        //append div to productscontainer
+                        container.append(div);
+                    })(i);
                 }
             }
             else{
