@@ -295,3 +295,29 @@ function get_categories(){
         productContainer.append(div);
     });
 }
+
+function get_cart(){
+    cart_wrap = document.getElementById('cartWrap');
+    cart = localStorage.getItem('cart');
+
+    for(var i in cart){
+        (function (index){
+            var wrapper = document.createElement('div');
+            var title = document.createElement('h2');
+            var description = document.createElement('p');
+            var verkoopprijs = document.createElement('p');
+            var hoeveelheid = document.createElement('p');
+            var img = document.createElement('img');
+
+            title.innerHTML = i['productName'];
+            description.innerHTML = i['description'];
+            verkoopprijs.innerHTML = i['verkoopprijs'];
+            hoeveelheid.innerHTML = i['hoeveelheid'];
+            img.src = i['image'];
+            img.alt = "product image";
+
+            wrapper.append(title, description, verkoopprijs, hoeveelheid, img);
+            cart_wrap.append(wrapper);
+        })
+    }
+}
