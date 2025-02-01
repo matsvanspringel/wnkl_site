@@ -301,10 +301,11 @@ function get_cart(){
     var cart_listing = JSON.parse(localStorage.getItem('cart'));
 
     for(var i in cart_listing){
-        var title = document.createElement('h2');
-        var verkoopprijs = document.createElement('p');
-        var hoeveelheid = document.createElement('p');
+        var title = document.createElement('input');
+        var verkoopprijs = document.createElement('input');
+        var hoeveelheid = document.createElement('input');
         var img = document.createElement('img');
+        var deleteBtn = document.createElement('p');
 
         var row1 = document.createElement('tr');
         var row2 = document.createElement('tr');
@@ -314,11 +315,18 @@ function get_cart(){
         var data4 = document.createElement('td');
         var data5 = document.createElement('td');
 
-        title.innerHTML = cart_listing[i]['productName'];
-        verkoopprijs.innerHTML = "Prijs: " + cart_listing[i]['verkoopprijs'];
-        hoeveelheid.innerHTML = "Hoeveelheid: " + cart_listing[i]['hoeveelheid'];
+        title.value = cart_listing[i]['productName'];
+        title.readOnly = true;
+        title.name = "Product naam";
+        verkoopprijs.value = "Prijs: " + cart_listing[i]['verkoopprijs'];
+        verkoopprijs.readOnly = true;
+        verkoopprijs.name = "Prijs";
+        hoeveelheid.value = "Hoeveelheid: " + cart_listing[i]['hoeveelheid'];
+        hoeveelheid.readOnly = true;
+        hoeveelheid.name = "Hoeveelheid";
         img.src = cart_listing[i]['image'];
         img.alt = "product image";
+        deleteBtn.innerHTML = "<i class='fa-solid fa-trash-can fa-xl'></i>";
 
         data1.rowSpan = 2;
         data1.append(img);
@@ -327,7 +335,7 @@ function get_cart(){
         data2.append(title);
 
         data3.rowSpan = 2;
-        data3.innerHTML = "trash can";
+        data3.append(deleteBtn);
 
         data4.append(verkoopprijs);
         data5.append(hoeveelheid);
@@ -337,4 +345,8 @@ function get_cart(){
 
         cart_wrap.append(row1, row2);
     }
+
+    data.append(orderBtn);
+    row.append(data);
+    cart_wrap.append(row);
 }
