@@ -101,19 +101,19 @@ function product_categories(category){
                 };
 
                 addButton.onclick = () => {
-                    productCart = {}
+                    var productCart = {}
                     productCart['productName'] = productName;
                     productCart['verkoopprijs'] = productVerkoopprijs;
-                    productCart['description'] = productDescription;
                     productCart['image'] = productImage;
                     productCart['hoeveelheid'] = counter;
 
                     cart[productName] = productCart;
-                    localStorage.setItem('cart', cart);
+                    var cart_string = JSON.stringify(cart);
+                    localStorage.setItem('cart', cart_string);
+                    alert('Producten toegevoegd aan winkelwagen')
 
                     counter = 0;
                     counterP.innerHTML = counter;
-                    console.log(cart)
                 };
         
                 addWrap.append(minus, counterP, plus, addButton);
@@ -297,27 +297,44 @@ function get_categories(){
 }
 
 function get_cart(){
-    cart_wrap = document.getElementById('cartWrap');
-    cart = localStorage.getItem('cart');
+    var cart_wrap = document.getElementById('cartWrap');
+    var cart_listing = JSON.parse(localStorage.getItem('cart'));
 
-    for(var i in cart){
-        (function (index){
-            var wrapper = document.createElement('div');
-            var title = document.createElement('h2');
-            var description = document.createElement('p');
-            var verkoopprijs = document.createElement('p');
-            var hoeveelheid = document.createElement('p');
-            var img = document.createElement('img');
+    for(var i in cart_listing){
+        var title = document.createElement('h2');
+        var verkoopprijs = document.createElement('p');
+        var hoeveelheid = document.createElement('p');
+        var img = document.createElement('img');
 
-            title.innerHTML = i['productName'];
-            description.innerHTML = i['description'];
-            verkoopprijs.innerHTML = i['verkoopprijs'];
-            hoeveelheid.innerHTML = i['hoeveelheid'];
-            img.src = i['image'];
-            img.alt = "product image";
+        var row1 = document.createElement('tr');
+        var row2 = document.createElement('tr');
+        var data1 = document.createElement('td');
+        var data2 = document.createElement('td');
+        var data3 = document.createElement('td');
+        var data4 = document.createElement('td');
+        var data5 = document.createElement('td');
 
-            wrapper.append(title, description, verkoopprijs, hoeveelheid, img);
-            cart_wrap.append(wrapper);
-        })
+        title.innerHTML = cart_listing[i]['productName'];
+        verkoopprijs.innerHTML = "Prijs: " + cart_listing[i]['verkoopprijs'];
+        hoeveelheid.innerHTML = "Hoeveelheid: " + cart_listing[i]['hoeveelheid'];
+        img.src = cart_listing[i]['image'];
+        img.alt = "product image";
+
+        data1.rowSpan = 2;
+        data1.append(img);
+
+        data2.colSpan = 2;
+        data2.append(title);
+
+        data3.rowSpan = 2;
+        data3.innerHTML = "trash can";
+
+        data4.append(verkoopprijs);
+        data5.append(hoeveelheid);
+
+        row1.append(data1, data2, data3);
+        row2.append(data4, data5);
+
+        cart_wrap.append(row1, row2);
     }
 }

@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="style.css">
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>WNKL - Winkelmandje</title>
+    <title>WNKL - Winkelwagen</title>
 
     <script src="script.js"></script>
 </head>
-<body>
+<body onload="get_cart()">
 
     <nav class="py-3">
         <div class="container">
@@ -24,10 +24,13 @@
 
                 <div id="nav-list" class="col-12 m-0">
                     <ul class="row align-items-md-center m-0 p-0">
-                        <li class="col-md-3"><a class="p-2 link transition" href="index.html#overOns">Over ons</a></li>
-                        <li class="col-md-3"><a class="p-2 link transition" href="index.html#contact">Contact</a></li>
-                        <li class="col-md-3"><a class="p-2 link transition" href="index.html#spotlight">Spotlight</a></li>
+                        <li class="col-10 py-3 d-md-none"><img src="images/LOGOWNKLPNG_Tekengebied_1.png" alt="Logo WNKL"></li>
+                        <li class="col-2 pt-4 d-md-none" onclick="dropdown(false)"><i class="fa-solid fa-xmark fa-2x"></i></li>
+                        <li class="col-md-3"><a class="p-2 link transition" href="#overOns">Over ons</a></li>
+                        <li class="col-md-3"><a class="p-2 link transition" href="#contact">Contact</a></li>
+                        <!-- <li class="col-md-2"><a class="p-2 link transition" href="#spotlight">Spotlight</a></li> -->
                         <li class="col-md-3"><a class="p-2 link transition" href="products.html">Alle&nbsp;producten</a></li>
+                        <li class="col-md-3"><a class="p-2 link transition" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -35,8 +38,18 @@
     </nav>
 
     <div class="container">
-        <div class="row" id="cartWrap">
-
+        <div class="row">
+            <table class="col-12" id="cartWrap">
+                <tr>
+                    <td rowspan="2"><img src="images/products/ansichtkaart/bedankt.png" alt="product"></td>
+                    <td colspan="2">Ansichtkaart bedankt</td>
+                    <td rowspan="2"><i class="fa-solid fa-trash-can fa-2x"></i></td>
+                </tr>
+                <tr>
+                    <td>Prijs: €1.00</td>
+                    <td>Hoeveelheid: 2</td>
+                </tr>
+            </table>
         </div>
     </div>
 
