@@ -360,7 +360,11 @@ function get_cart(){
             cart_wrap.append(row1, row2);
 
             deleteBtn.onclick = () => {
-                console.log(cart_listing[i]['productName']);
+                delete cart_listing[i];
+                var cart_string = JSON.stringify(cart_listing);
+                localStorage.setItem('cart', cart_string);
+
+                location.reload();
             };  
         })(i);
     }
