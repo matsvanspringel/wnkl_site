@@ -248,6 +248,10 @@ footer a:hover i{
     background-color: transparent;
 }
 
+#cartTitle{
+    color: black;
+}
+
 @media screen and (min-width: 768px){
     #nav-list{
         display: block;

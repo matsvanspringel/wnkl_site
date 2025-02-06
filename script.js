@@ -311,13 +311,20 @@ function get_cart(){
     var cart_wrap = document.getElementById('cartWrap');
     var cart_listing = JSON.parse(localStorage.getItem('cart'));
 
-    if(localStorage.getItem('cart') == "{}"){
+    if(localStorage.getItem('cart') == "{}" || localStorage.getItem('cart') == ""){
         document.getElementById('orderBtn').style.display = "none";
 
         var title = document.createElement('h2');
-        title.innerHTML = "Geen producten in uw winkelmandje!"
+        var productButton = document.createElement('a');
 
-        cart_wrap.append(title);
+        title.id = "cartTitle";
+        title.innerHTML = "Geen producten in uw winkelmandje!";
+        productButton.innerHTML = "Zoek naar producten";
+        productButton.href = "products.html"
+
+        productButton.classList.add('primary-button', 'p-2', 'transition');
+
+        cart_wrap.append(title, productButton);
     }
     else{
         for(let i in cart_listing){
