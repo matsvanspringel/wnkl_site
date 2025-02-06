@@ -3,8 +3,11 @@ html{
 }
 
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
     position: relative;
+}
+
+main{
     min-height: 100vh;
 }
 
@@ -22,6 +25,21 @@ nav ul li{
 
 nav ul li a{
     font-size: 1.25rem;
+    text-decoration: none;
+    color: #DE8A68;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+nav ul li a:hover{
+    color: #A3C6A5;
+}
+
+nav ul li a:hover i{
+    color: #A3C6A5;
 }
 
 h1, h2, h3{
@@ -55,10 +73,6 @@ form textarea{
     min-height: 150px;
     max-height: 150px;
 }
-
-iframe{
-    border-radius: 5px;
-}
  
 i{
     color: #DE8A68;
@@ -76,16 +90,14 @@ footer p{
 footer a{
     text-decoration: none;
     color: #DE8A68;
-    border-radius: 5px;
 }
 
 footer a:hover{
-    background-color: #DE8A68;
-    color: white;
+    color: #A3C6A5;
 }
 
 footer a:hover i{
-    color: white;
+    color: #A3C6A5;
 }
 
 #productTitle{
@@ -114,9 +126,6 @@ footer a:hover i{
 
 #imageWrap{
     position: relative;
-    left: 25%;
-    height: 400px;
-    width: 400px;
 }
 
 #left, #right{
@@ -167,38 +176,43 @@ footer a:hover i{
     color: black;
 }
 
-.product p{
+.product p{ 
     font-size: .9rem;;
 }
 
 .primary-button{
-    background-color: #DE8A68;
+    background-image: linear-gradient(to right, #A3C6A5 50%, #DE8A68 50%);
+    background-size: 200% 100%;
+    background-position: right;
     color: white;
     border-radius: 5px;
     border: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.25rem;
     font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .primary-button:hover{
-    background-color: #fff;
-    color: #DE8A68;
+    background-position: left;
+    cursor: pointer;
+}
+
+.product-button:hover{
+    cursor: pointer;
 }
 
 .link{
     color: #DE8A68;
-    text-decoration: none;
     text-transform: uppercase;
-    font-family: "Bebas Neue", serif;
+    font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
-    font-style: normal;
-    border-radius: 5px;
+    text-decoration: none;
 }
 
 .link:hover{
-    background-color: #DE8A68;
-    color: white;
+    color: #A3C6A5;
 }
 
 .sliderImage{
@@ -210,6 +224,13 @@ footer a:hover i{
     transform: scale(1.1);
 }
 
+.cart-input{
+    background-color: transparent;
+    color: black;
+    width: 100%;
+    border: none;
+}
+
 .accent{
     color: #A3C6A5;
     font-weight: bold;
@@ -219,6 +240,14 @@ footer a:hover i{
     transition: .25s;
 }
 
+#topImg{
+    text-align: center;
+}
+
+#cartForm{
+    background-color: transparent;
+}
+
 @media screen and (min-width: 768px){
     #nav-list{
         display: block;
@@ -226,5 +255,15 @@ footer a:hover i{
         height: inherit;
         width: inherit;
         background-color: #1E6E93;
+    }
+
+    #search, #ontwerpNote{
+        text-align: end;
+    }
+
+    #imageWrap{
+        width: 400px;
+        height: 400px;
+        left: 25%;
     }
 }
