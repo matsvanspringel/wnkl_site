@@ -75,7 +75,7 @@ function product_categories(category){
                 img.classList.add('col-6', 'offset-3');
                 minus.classList.add('fa-solid', 'fa-circle-minus', 'fa-xl', 'col-1', 'product-button');
                 plus.classList.add('fa-solid', 'fa-circle-plus', 'fa-xl', 'col-1', 'product-button');
-                counterP.classList.add('col-2');
+                counterP.classList.add('col-2', 'pt-2');
                 addButton.classList.add('col-4', 'primary-button', 'offset-3', 'transition')
                 addWrap.classList.add('col-12', 'd-flex', 'align-items-center', 'pb-2');
 
@@ -105,6 +105,11 @@ function product_categories(category){
                     cart[productName] = productCart;
                     var cart_string = JSON.stringify(cart);
                     localStorage.setItem('cart', cart_string);
+
+                    addButton.innerHTML = "<i class='fa-solid fa-circle-check white'></i>";
+                    setTimeout(function(){
+                        addButton.innerHTML = "Add";
+                    }, 2000);
 
                     counter = 0;
                     counterP.innerHTML = counter;

@@ -203,6 +203,10 @@ footer a:hover i{
     cursor: pointer;
 }
 
+.white{
+    color: white;
+}
+
 .link{
     color: #DE8A68;
     text-transform: uppercase;
