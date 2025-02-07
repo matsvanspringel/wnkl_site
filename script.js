@@ -109,7 +109,7 @@ function product_categories(category){
                     addButton.innerHTML = "<i class='fa-solid fa-circle-check white'></i>";
                     setTimeout(function(){
                         addButton.innerHTML = "Add";
-                    }, 2000);
+                    }, 1000);
 
                     counter = 0;
                     counterP.innerHTML = counter;
