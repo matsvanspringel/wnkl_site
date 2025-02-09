@@ -96,23 +96,26 @@ function product_categories(category){
                 };
 
                 addButton.onclick = () => {
-                    var productCart = {}
-                    productCart['productName'] = productName;
-                    productCart['verkoopprijs'] = productVerkoopprijs;
-                    productCart['image'] = productImage;
-                    productCart['hoeveelheid'] = counter;
+                    if(counter > 0){
+                        var productCart = {}
+                        productCart['productName'] = productName;
+                        productCart['verkoopprijs'] = productVerkoopprijs;
+                        productCart['image'] = productImage;
+                        productCart['hoeveelheid'] = counter;
 
-                    cart[productName] = productCart;
-                    var cart_string = JSON.stringify(cart);
-                    localStorage.setItem('cart', cart_string);
+                        var local_cart = JSON.parse(localStorage.getItem('cart'));
+                        local_cart[productName] = productCart;
+                        var cart_string = JSON.stringify(local_cart);
+                        localStorage.setItem('cart', cart_string);
 
-                    addButton.innerHTML = "<i class='fa-solid fa-circle-check white'></i>";
-                    setTimeout(function(){
-                        addButton.innerHTML = "Add";
-                    }, 1000);
+                        addButton.innerHTML = "<i class='fa-solid fa-circle-check white'></i>";
+                        setTimeout(function(){
+                            addButton.innerHTML = "Add";
+                        }, 1000);
 
-                    counter = 0;
-                    counterP.innerHTML = counter;
+                        counter = 0;
+                        counterP.innerHTML = counter;
+                    }
                 };
         
                 addWrap.append(minus, counterP, plus, addButton);
@@ -260,23 +263,26 @@ function search_products(){
                         };
 
                         addButton.onclick = () => {
-                            var productCart = {}
-                            productCart['productName'] = productName;
-                            productCart['verkoopprijs'] = productVerkoopprijs;
-                            productCart['image'] = productImage;
-                            productCart['hoeveelheid'] = counter;
+                            if(counter > 0){
+                                var productCart = {}
+                                productCart['productName'] = productName;
+                                productCart['verkoopprijs'] = productVerkoopprijs;
+                                productCart['image'] = productImage;
+                                productCart['hoeveelheid'] = counter;
 
-                            cart[productName] = productCart;
-                            var cart_string = JSON.stringify(cart);
-                            localStorage.setItem('cart', cart_string);
+                                var local_cart = JSON.parse(localStorage.getItem('cart'));
+                                local_cart[productName] = productCart;
+                                var cart_string = JSON.stringify(local_cart);
+                                localStorage.setItem('cart', cart_string);
 
-                            addButton.innerHTML = "<i class='fa-solid fa-circle-check white'></i>";
-                            setTimeout(function(){
-                                addButton.innerHTML = "Add";
-                            }, 1000);
+                                addButton.innerHTML = "<i class='fa-solid fa-circle-check white'></i>";
+                                setTimeout(function(){
+                                    addButton.innerHTML = "Add";
+                                }, 1000);
 
-                            counter = 0;
-                            counterP.innerHTML = counter;
+                                counter = 0;
+                                counterP.innerHTML = counter;
+                            }
                         };
                 
                         addWrap.append(minus, counterP, plus, addButton);
@@ -320,11 +326,9 @@ function get_categories(){
 function get_cart(){
     var cart_wrap = document.getElementById('cartWrap');
     var cart_listing = JSON.parse(localStorage.getItem('cart'));
-    var totaal = document.getElementById('total');
     let totaalCount = 0.0
 
     if(localStorage.getItem('cart') == "{}" || localStorage.getItem('cart') == ""){
-        document.getElementById('total').style.display = 'none';
         document.getElementById('orderBtn').style.display = 'none';
 
         var title = document.createElement('h2');
@@ -359,22 +363,21 @@ function get_cart(){
                 title.classList.add('cart-input');
                 verkoopprijs.classList.add('cart-input');
                 hoeveelheid.classList.add('cart-input');
-                deleteBtn.classList.add('product-button');
+                deleteBtn.classList.add('product-button', 'transition');
     
                 title.value = cart_listing[i]['productName'];
                 title.readOnly = true;
-                title.name = "Product naam";
+                title.name = cart_listing[i]['productName'];
                 verkoopprijs.value = "Prijs: " + cart_listing[i]['verkoopprijs'];
                 verkoopprijs.readOnly = true;
-                verkoopprijs.name = "Prijs";
+                verkoopprijs.name = cart_listing[i]['productName'];
                 hoeveelheid.value = "Aantal: " + cart_listing[i]['hoeveelheid'];
                 hoeveelheid.readOnly = true;
-                hoeveelheid.name = "Aantal";
+                hoeveelheid.name = cart_listing[i]['productName'];
                 img.src = cart_listing[i]['image'];
                 img.alt = "product image";
                 deleteBtn.innerHTML = "<i class='fa-solid fa-trash-can fa-xl'></i>";
                 totaalCount += parseFloat(cart_listing[i]['verkoopprijs']) * parseInt(cart_listing[i]['hoeveelheid']);
-                totaal.innerHTML = "Totaal: " + totaalCount.toString();
     
                 data1.rowSpan = 2;
                 data1.append(img);
@@ -402,5 +405,21 @@ function get_cart(){
                 };  
             })(i);
         }
+
+        var inputTotal = document.createElement('input');
+        var totalRow = document.createElement('tr');
+        var totalData = document.createElement('td');
+
+        totalData.colSpan = 4;
+
+        inputTotal.classList.add('col-12', 'mt-3', 'cart-input');
+        inputTotal.id = "total";
+        inputTotal.name = "Totaal";
+        inputTotal.readOnly = true;
+        inputTotal.value = "Totaal: €" + totaalCount.toString();
+
+        totalData.append(inputTotal);
+        totalRow.append(totalData);
+        cart_wrap.append(totalRow);
     }
 }
