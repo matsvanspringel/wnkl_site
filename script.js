@@ -73,8 +73,8 @@ function product_categories(category){
                 p.classList.add('col-12');
                 h3.classList.add('col-12');
                 img.classList.add('col-6', 'offset-3');
-                minus.classList.add('fa-solid', 'fa-circle-minus', 'fa-xl', 'col-1', 'product-button');
-                plus.classList.add('fa-solid', 'fa-circle-plus', 'fa-xl', 'col-1', 'product-button');
+                minus.classList.add('fa-solid', 'fa-circle-minus', 'fa-xl', 'col-1', 'product-button', 'transition');
+                plus.classList.add('fa-solid', 'fa-circle-plus', 'fa-xl', 'col-1', 'product-button', 'transition');
                 counterP.classList.add('col-2', 'pt-2');
                 addButton.classList.add('col-4', 'primary-button', 'offset-3', 'transition')
                 addWrap.classList.add('col-12', 'd-flex', 'align-items-center', 'pb-2');
@@ -237,9 +237,9 @@ function search_products(){
                         p.classList.add('col-12');
                         h3.classList.add('col-12');
                         img.classList.add('col-6', 'offset-3');
-                        minus.classList.add('fa-solid', 'fa-circle-minus', 'fa-xl', 'col-1', 'product-button');
-                        plus.classList.add('fa-solid', 'fa-circle-plus', 'fa-xl', 'col-1', 'product-button');
-                        counterP.classList.add('col-2');
+                        minus.classList.add('fa-solid', 'fa-circle-minus', 'fa-xl', 'col-1', 'product-button', 'transition');
+                        plus.classList.add('fa-solid', 'fa-circle-plus', 'fa-xl', 'col-1', 'product-button', 'transition');
+                        counterP.classList.add('col-2', 'pt-2');
                         addButton.classList.add('col-4', 'primary-button', 'offset-3', 'transition')
                         addWrap.classList.add('col-12', 'd-flex', 'pb-2', 'align-items-center');
 
@@ -269,6 +269,11 @@ function search_products(){
                             cart[productName] = productCart;
                             var cart_string = JSON.stringify(cart);
                             localStorage.setItem('cart', cart_string);
+
+                            addButton.innerHTML = "<i class='fa-solid fa-circle-check white'></i>";
+                            setTimeout(function(){
+                                addButton.innerHTML = "Add";
+                            }, 1000);
 
                             counter = 0;
                             counterP.innerHTML = counter;
@@ -315,9 +320,12 @@ function get_categories(){
 function get_cart(){
     var cart_wrap = document.getElementById('cartWrap');
     var cart_listing = JSON.parse(localStorage.getItem('cart'));
+    var totaal = document.getElementById('total');
+    let totaalCount = 0.0
 
     if(localStorage.getItem('cart') == "{}" || localStorage.getItem('cart') == ""){
-        document.getElementById('orderBtn').style.display = "none";
+        document.getElementById('total').style.display = 'none';
+        document.getElementById('orderBtn').style.display = 'none';
 
         var title = document.createElement('h2');
         var productButton = document.createElement('a');
@@ -351,7 +359,7 @@ function get_cart(){
                 title.classList.add('cart-input');
                 verkoopprijs.classList.add('cart-input');
                 hoeveelheid.classList.add('cart-input');
-                deleteBtn.classList.add('product-button')
+                deleteBtn.classList.add('product-button');
     
                 title.value = cart_listing[i]['productName'];
                 title.readOnly = true;
@@ -365,6 +373,8 @@ function get_cart(){
                 img.src = cart_listing[i]['image'];
                 img.alt = "product image";
                 deleteBtn.innerHTML = "<i class='fa-solid fa-trash-can fa-xl'></i>";
+                totaalCount += parseFloat(cart_listing[i]['verkoopprijs']) * parseInt(cart_listing[i]['hoeveelheid']);
+                totaal.innerHTML = "Totaal: " + totaalCount.toString();
     
                 data1.rowSpan = 2;
                 data1.append(img);
@@ -392,9 +402,5 @@ function get_cart(){
                 };  
             })(i);
         }
-    
-        data.append(orderBtn);
-        row.append(data);
-        cart_wrap.append(row);
     }
 }
