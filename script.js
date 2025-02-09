@@ -3,6 +3,7 @@ var droppeddown = false;
 var categories = ['water', 'chocolade chips', 'koeken', 'baru', 'italiaans', 'geuren', 'papierwaren', 'accessoires'];
 var slideNumber = 0;
 var cart = {};
+localStorage.setItem('cart', cart);
 
 function image_slide(number){
     slideNumber += number;
