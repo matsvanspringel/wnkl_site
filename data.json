@@ -91,12 +91,6 @@
                 "verkoopprijs": "4.75",
                 "description": "Heerlijke stukken witte chocolade om zelf in kleine stukjes te breken of in grote stukken te houden. De aardbeien parelsuiker ziet er niet alleen prachtig uit maar geeft ook een knapperige bite aan de chocolade. Echt genieten dus!",
                 "image": "images/products/chocolade/breekchocoladeparelsuiker.jpg"
-            },
-            "Verduijn's Fine Biscuits - cacao wafel 75 gram": {
-                "naam": "Verduijn's Fine Biscuits - cacao wafel 75 gram",
-                "verkoopprijs": "2.75",
-                "description": "Donkerbruine wafel met cacaopoeder en boter, met een zachte crunch. Het nieuwste idee bij Verduijn's Fine Biscuits was om de populaire boterwafel te combineren met cacao. Proef zelf hoe de boter en cacao perfect samengaan bij koffie of thee, of geniet er gewoon van als een heerlijke, knapperige traktatie.",
-                "image": "images/products/chocolade/verduijncacaowafel.jpg"
             }
         },
         "koeken":{
@@ -144,7 +138,7 @@
             },
             "Verduijn's Fine Biscuits - chocolade/kokos koekjes 75 gram": {
                 "naam": "Verduijn's Fine Biscuits - chocolade/kokos koekjes 75 gram",
-                "verkooprijs": "2.75",
+                "verkoopprijs": "2.75",
                 "description": "Heerlijke boterkoekjes met chocolade en kokos gemaakt met echte roomboter. Lekker voor bij de koffie of thee of als bijvoorbeeld versiering bij desserts.",
                 "image": "images/products/koek/verduijnchocoladekokos.jpg"
             },
@@ -153,72 +147,78 @@
                 "verkoopprijs": "2.75",
                 "description": ": Lekkere biscuitjes met echte stukjes amandel. Deze koekjes staan ook wel bekend als amandelbrood en zijn verrassend lekker met kaas.",
                 "image": "images/products/koek/verduijnkletskoppen.jpg"
+            },
+            "Verduijn's Fine Biscuits - cacao wafel 75 gram": {
+                "naam": "Verduijn's Fine Biscuits - cacao wafel 75 gram",
+                "verkoopprijs": "2.75",
+                "description": "Donkerbruine wafel met cacaopoeder en boter, met een zachte crunch. Het nieuwste idee bij Verduijn's Fine Biscuits was om de populaire boterwafel te combineren met cacao. Proef zelf hoe de boter en cacao perfect samengaan bij koffie of thee, of geniet er gewoon van als een heerlijke, knapperige traktatie.",
+                "image": "images/products/chocolade/verduijncacaowafel.jpg"
             }
         },
         "baru": {
             "Baru - white chocolate latte 250 gram": {
                 "naam": "Baru - white chocolate latte 250 gram",
-                "verkoopprijs": "6.95",
+                "verkoopprijs": "7.95",
                 "description": "Voeg warme melk toe voor een heerlijke latte met witte chocolade! Leuk in combinatie m,et de Barú Pink Mug.",
                 "image": "images/products/baruPoeders/baruwhitechocolate.jpg"
             },
              "Baru - fluffy marshmallow chocolate powder 250 gram": {
                 "naam": "Baru - fluffy marshmallow chocolate powder 250 gram",
-                "verkoopprijs": "6.95",
+                "verkoopprijs": "7.95",
                 "description": "Dit poeder bevat fluffy marshmallows voor een extra fluffy chocolademelk. Om te delen met de hele familie (of niet!). Simpelweg warme melk, soja of amandelmelk toevoegen en genieten! Leuk samen met de Barú Blue Mug.",
                 "image": "images/products/baruPoeders/barumarshmallowchocolate.jpg"
             },
             "Baru - dark hot chocolate powder 250 gram": {
                 "naam": "Baru - dark hot chocolate powder 250 gram",
-                "verkoopprijs": "6.95",
+                "verkoopprijs": "7.95",
                 "description": "Met dit poeder maak je de heerljikste chocolademelk. Het enige waar je zelf nog voor hoeft te zorgen is opgewarmde melk!",
                 "image": "images/products/baruPoeders/barudarkchocolate.jpg"
             },
             "Baru - swirly chocolate powder 250 gram": {
                 "naam": "Baru - swirly chocolate powder 250 gram",
-                "verkoopprijs": "6.95",
+                "verkoopprijs": "7.95",
                 "description": "Terwijl onze kleine chocolade figuurtjes zachtjes wegsmelten, vullen ze je mok met een heerlijk chocoladearoma. Voor een moment van swirly inspiratie! Simpelweg warme melk, soja of amandelmelk toevoegen. Leuk in combinatie met de Barú Red Mug.",
                 "image": "images/products/baruPoeders/baruswirlychocolate.jpg"
             },
             "Baru - golden chai latte 250 gram": {
                 "naam": "Baru - golden chai latte 250 gram",
-                "verkoopprijs": "6.95",
+                "verkoopprijs": "7.95",
                 "description": "Een Golden Latte is een smaakvol drankje met kurkuma, een felgeel specerij bekend om zijn ontstekingsremmende eigenschappen. Deze vegan Golden Chai bevat zwarte thee, exotische specerijen en kurkuma.",
                 "image": "images/products/baruPoeders/barugoldenchai.jpg"
             },
             "Baru - matcha latte 250 gram": {
                 "naam": "Baru - matcha latte 250 gram",
-                "verkoopprijs": "6.95",
+                "verkoopprijs": "7.95",
                 "description": "Terwijl de lente nadert, hebben we iets lekkers om het seizoen te vieren: Matcha Latte! Het is een heerlijke groene thee met een vleugje zoetheid, lekker om gezellig van te genieten. Onze romige twist op de klassieke matcha thee is snel te maken, zowel warm als koud!",
                 "image": "images/products/baruPoeders/barumatcha.jpg"
             },
             "Baru - pumpkin spice latte 250 gram": {
                 "naam": "Baru - pumpkin spice latte 250 gram",
-                "verkoopprijs": "6.95",
+                "verkoopprijs": "7.95",
                 "description": "Herfst in een kopje. Deze pumpkin spice late van Barú is een blend van espresso, pompoen, kaneel en Jamaicaanse peper. Het meeste gezellige drankje voor de meest sfeervolle periode van het jaar. Voeg alleen nog (plantaardige) melk toe en geniet.",
                 "image": "images/products/baruPoeders/barupumpkinspcie.jpg"
             },
             "Baru - vanilla chai latte 250 gram": {
                 "naam": "Baru - vanilla chai latte 250 gram",
-                "verkoopprijs": "6.95",
+                "verkoopprijs": "7.95",
                 "description": "Van deze Vanilla Chai Latte zal je zeker kunnen genieten. Deze vegan chai latte is gemaakt met zwarte thee en specerijen. Voeg hier opgeschuimde (plantaardige) warme melk aan toe en zorg voor een heerlijk genietmoment voor jezelf of samen met vrienden. Probeer ook eens een Iced (Vanilla) Chai Latte of een Dirty Iced Chai.",
                 "image": "images/products/baruPoeders/baruvanillechai.png"
             },
             "Barú - marshmallow bar chai latte 30 gram":{
                 "naam": "Barú - marshmallow bar chai latte 30 gram",
-                "verkoopprijs": "1.55",
+                "verkoopprijs": "1.75",
                 "description": "Marshmallowbar met melkchocolade en de kruidige smaak van chai latte. Verpakt per 18 bars in een mooie display!",
                 "image": "images/products/chocolade/baruchailatte.png"
             },
             "Barú - marshmallow bar crunchy hazelnut 30 gram": {
                 "naam": "Barú - marshmallow bar chai latte 30 gram",
-                "verkoopprijs": "1.55",
+                "verkoopprijs": "1.75",
                 "description": "Marshmallowbar met pure chocolade en crunchy cashew crisp. Verpakt per 18 bars in een mooie display!",
                 "image": "images/products/chocolade/barucrunchyhazelnoot.jpg"
             },
             "Barú - marshmallow bar sea salt caramel 30 gram": {
                 "naam": "Barú - marshmallow bar sea salt caramel 30 gram",
-                "verkoopprijs": "1.55",
+                "verkoopprijs": "1.75",
                 "description": "Marshmallow bar met pure chocolade, zeezout en caramel. Een heerljke combinatie tussen zout en zoet, verpakt per 18 bars in een mooi display!",
                 "image": "images/products/chocolade/baruzeezoutcaramel.jpg"
             }

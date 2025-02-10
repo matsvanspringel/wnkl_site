@@ -65,7 +65,7 @@ function product_categories(category){
                 // Fill in elements
                 img.src = productImage;
                 img.alt = productName;
-                h3.innerHTML = productName + " - €" + productVerkoopprijs;
+                h3.innerHTML = productName + " - €&nbsp;" + productVerkoopprijs;
                 p.innerHTML = productDescription;
                 counterP.innerHTML = counter;
                 addButton.innerHTML = "Add";
@@ -159,7 +159,7 @@ function get_spotlights(category){
             //fill in elements
             img.src = productImage;
             img.alt = productName;
-            h3.innerHTML = productName + " - €" + productVerkoopprijs;
+            h3.innerHTML = productName + " - €&nbsp;" + productVerkoopprijs;
             p.innerHTML = productDescription;
 
             //add everything to div
@@ -237,7 +237,7 @@ function search_products(){
                         //fill in elements
                         img.src = productImage;
                         img.alt = productName;
-                        h3.innerHTML = productName + " - €" + productVerkoopprijs;
+                        h3.innerHTML = productName + " - €&nbsp;" + productVerkoopprijs;
                         p.innerHTML = productDescription;
                         counterP.innerHTML = counter;
                         addButton.innerHTML = "Add";
@@ -426,7 +426,7 @@ function get_cart(){
         inputTotal.id = "total";
         inputTotal.name = "Totaal";
         inputTotal.readOnly = true;
-        inputTotal.value = "Totaal: €" + totaalCount.toString();
+        inputTotal.value = "Totaal: €&nbsp;" + totaalCount.toString();
 
         totalData.append(inputTotal);
         totalRow.append(totalData);
