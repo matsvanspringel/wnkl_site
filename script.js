@@ -426,7 +426,7 @@ function get_cart(){
         inputTotal.id = "total";
         inputTotal.name = "Totaal";
         inputTotal.readOnly = true;
-        inputTotal.value = "Totaal: €&nbsp;" + totaalCount.toString();
+        inputTotal.value = "Totaal: € " + totaalCount.toString();
 
         totalData.append(inputTotal);
         totalRow.append(totalData);
