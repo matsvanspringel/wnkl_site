@@ -3,7 +3,6 @@ var droppeddown = false;
 var categories = ['water', 'chocolade chips', 'koeken', 'baru', 'italiaans', 'geuren', 'papierwaren', 'accessoires'];
 var slideNumber = 0;
 var cart = {};
-localStorage.setItem('cart', JSON.stringify(cart));
 
 function image_slide(number){
     slideNumber += number;
@@ -105,6 +104,11 @@ function product_categories(category){
                         productCart['hoeveelheid'] = counter;
 
                         var local_cart = JSON.parse(localStorage.getItem('cart'));
+
+                        if(local_cart == null){
+                            local_cart = {};
+                        }
+
                         local_cart[productName] = productCart;
                         var cart_string = JSON.stringify(local_cart);
                         localStorage.setItem('cart', cart_string);
@@ -272,6 +276,11 @@ function search_products(){
                                 productCart['hoeveelheid'] = counter;
 
                                 var local_cart = JSON.parse(localStorage.getItem('cart'));
+
+                                if(local_cart == null){
+                                    local_cart = {};
+                                }
+
                                 local_cart[productName] = productCart;
                                 var cart_string = JSON.stringify(local_cart);
                                 localStorage.setItem('cart', cart_string);
