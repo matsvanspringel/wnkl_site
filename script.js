@@ -340,6 +340,7 @@ function get_cart(){
 
     if(localStorage.getItem('cart') == "{}" || localStorage.getItem('cart') == ""){
         document.getElementById('orderBtn').style.display = 'none';
+        document.getElementById('naam').style.display = 'none';
 
         var title = document.createElement('h2');
         var productButton = document.createElement('a');

@@ -42,10 +42,14 @@
         <div class="container py-5">
             <div class="row">
                 <form action="https://formspree.io/f/myzkjpjq" method="post" id="cartForm" class="col-12 d-flex flex-wrap">
+                    <label for="naam" class="col-12 col-md-4 offset-md-4 d-flex">
+                        <input id="naam" class="col-12" type="text" placeholder="Jouw naam..." required>
+                    </label>
+
                     <table class="col-12" id="cartWrap">
                         <!-- producten uit winkelmandje ingevoegd door script.js -->
                     </table>
-                    
+
                     <button id="orderBtn" type="submit" class="col-10 col-md-4 col-xl-2 offset-1 offset-md-4 offset-xl-5 primary-button transition">Bestel</button>
                 </form>
             </div>
